@@ -1,0 +1,296 @@
+{
+ "schema": 1,
+ "baseUrl": "https://raw.githubusercontent.com/zhudaandzhuer/zhuda-engine-assets/main/",
+ "how": "The address of a file is baseUrl + path. Read catalog/kinds.json first, then the slice of the kind you need; this file is every slice together.",
+ "status": {
+  "ok": "fits what was asked, by measurement and a look at thumbnails; nobody has looked at it closely",
+  "flagged": "usable, with the stated issue",
+  "raw": "as generated, a step of post-processing is still owed (the issue says which)",
+  "redo": "wrong; do not use, it is kept so that the redo can be compared"
+ },
+ "kind": "sky",
+ "what": "A sky panorama, 2:1.",
+ "count": 14,
+ "assets": [
+  {
+   "id": "textures/skies/dawn-pink-closed",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/dawn-pink-closed.png",
+   "width": 3169,
+   "height": 1585,
+   "alpha": false,
+   "bytes": 3672250,
+   "sha256": "12bc528818ef931bbdbe885425190c9489fe1bc3deebd19bf063e8ba2d4e0f3b",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [
+    "not high dynamic range: a backdrop and an ambient colour, not a light source"
+   ],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/skies/midday-cumulus-closed",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/midday-cumulus-closed.png",
+   "width": 3169,
+   "height": 1585,
+   "alpha": false,
+   "bytes": 4154459,
+   "sha256": "982337da468e0d4a8ca1c7bd6e557125adf56951ded0720e89fd874463409db0",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [
+    "not high dynamic range: a backdrop and an ambient colour, not a light source"
+   ],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/skies/night-stars-closed",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/night-stars-closed.png",
+   "width": 3169,
+   "height": 1585,
+   "alpha": false,
+   "bytes": 5481517,
+   "sha256": "d320bf75fdc7a7d77044aa9a6f44870f2798b18887f209d38f2933023cfd5f49",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [
+    "not high dynamic range: a backdrop and an ambient colour, not a light source"
+   ],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/skies/overcast-grey-closed",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/overcast-grey-closed.png",
+   "width": 3169,
+   "height": 1585,
+   "alpha": false,
+   "bytes": 4073602,
+   "sha256": "2134d04e3a4d80cebcc98207214f0a99a3d0edc258dee18e54d17937da95a9e1",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [
+    "not high dynamic range: a backdrop and an ambient colour, not a light source"
+   ],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/skies/sky-alien-moons-base",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/sky-alien-moons-base.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1440429,
+   "sha256": "f1140498c6554f31075301c2be363d32bf6398e6ea0d529a112cf353daf242b4",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/sky-aurora-base",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/sky-aurora-base.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1793795,
+   "sha256": "9f7a981794031a374604dd65a1cf12bb4da444beffe2cf962541c4ed22798efd",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/sky-blue-hour-base",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/sky-blue-hour-base.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1431674,
+   "sha256": "513989026afa1033ba0093c725300a5f0db2b7a883767dc86d4fce24c192634f",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/sky-foggy-dawn-base",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/sky-foggy-dawn-base.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1443160,
+   "sha256": "7acd3ef71ad3f5cde4c8a5498e9b962983f4e2d41641e9fc93bd229643ab0190",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/sky-golden-hour-base",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/sky-golden-hour-base.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1584176,
+   "sha256": "659767fc7c6a0b8f6a382caea3c092caee1a239359568c4d20e12cf6b1f7efc1",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/sky-nebula-base",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/sky-nebula-base.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 2843463,
+   "sha256": "b97b2ca3264c9fde651781ae7b94cbdde0912d7e43b1b4d7b1f9448eb19098dc",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/sky-storm-base",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/sky-storm-base.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1569744,
+   "sha256": "79bdd6fa49e94c029e9fd488de8118b4e2724cd817e4471ce28a13a7fc88d15e",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/sky-toon-sunset-base",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/sky-toon-sunset-base.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1391267,
+   "sha256": "b22f12da57cff740f4d9b9f7b01e4f6dc545c6cd5d02a6e1a7f187eee8c246ff",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/sunset-orange-closed",
+   "kind": "sky",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/sunset-orange-closed.png",
+   "width": 3169,
+   "height": 1585,
+   "alpha": false,
+   "bytes": 4435855,
+   "sha256": "d3a04d5dcd9e523a42cd838698f53c5a7e509fe050abf5d5c79161c37ac4827e",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [
+    "not high dynamic range: a backdrop and an ambient colour, not a light source"
+   ],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/skies/toon-blue-closed",
+   "kind": "sky",
+   "medium": "texture",
+   "style": "toon",
+   "path": "textures/skies/toon-blue-closed.png",
+   "width": 3169,
+   "height": 1585,
+   "alpha": false,
+   "bytes": 3401963,
+   "sha256": "0be7e804c1650ab257b2f8478b567027ed13deda2ad04b6873d513fdc6f18bf7",
+   "background": "opaque",
+   "repeat": "x",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [
+    "not high dynamic range: a backdrop and an ambient colour, not a light source"
+   ],
+   "batch": "2026-11-26-batch1"
+  }
+ ]
+}

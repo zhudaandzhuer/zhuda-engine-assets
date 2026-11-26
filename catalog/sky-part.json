@@ -1,0 +1,656 @@
+{
+ "schema": 1,
+ "baseUrl": "https://raw.githubusercontent.com/zhudaandzhuer/zhuda-engine-assets/main/",
+ "how": "The address of a file is baseUrl + path. Read catalog/kinds.json first, then the slice of the kind you need; this file is every slice together.",
+ "status": {
+  "ok": "fits what was asked, by measurement and a look at thumbnails; nobody has looked at it closely",
+  "flagged": "usable, with the stated issue",
+  "raw": "as generated, a step of post-processing is still owed (the issue says which)",
+  "redo": "wrong; do not use, it is kept so that the redo can be compared"
+ },
+ "kind": "sky-part",
+ "what": "A redrawn quarter of a sky panorama, to be stitched over its base.",
+ "count": 32,
+ "assets": [
+  {
+   "id": "textures/skies/parts/sky-alien-moons-bl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-alien-moons-bl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1537143,
+   "sha256": "97b03d8b7a2467d2006f6fee5ef2046c1d43a0cedf34e28208eee1f04eb72adc",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-alien-moons-br",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-alien-moons-br.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1607814,
+   "sha256": "c58f675fe8adcc2ea5ce69ddd132d6004485096b918262fc4110fe212c82e7c1",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-alien-moons-tl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-alien-moons-tl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1664952,
+   "sha256": "ad3fd34b15041d0ce08b524ae6539ba3c529577abc843e677cd44138d11782ac",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-alien-moons-tr",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-alien-moons-tr.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1615470,
+   "sha256": "8280aab48f508c44097a777c3b6cc381cb213ce4b8e82effbaa48fd792a18c0c",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-aurora-bl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-aurora-bl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1573159,
+   "sha256": "771bbf87a5b285cb49b6736a3b77b158d47ff8431207abf208e8077f6d041576",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-aurora-br",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-aurora-br.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1613603,
+   "sha256": "3c26231bec708ad8a6dcffcdaa760011d0d2c96392b85a337d08b1ddf07425be",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-aurora-tl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-aurora-tl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 2137246,
+   "sha256": "d7b195144f4e3f415e81e80a13f815cc56befdacb899159b86bdebb25fd3c05e",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-aurora-tr",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-aurora-tr.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1719974,
+   "sha256": "a300af373062902fc13f2802c307de78b44b3167f5cb932a6fcc0b95deef0e09",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-blue-hour-bl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-blue-hour-bl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1491373,
+   "sha256": "a56b5ce4137fd79253610ed438a153724d5d01f47984544a49624d59406b32c8",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-blue-hour-br",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-blue-hour-br.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1495512,
+   "sha256": "ed8b647726f95b7d55385a2b83dd34e2bf69006c3c0fab54ecdbbfd93339d977",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-blue-hour-tl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-blue-hour-tl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1575946,
+   "sha256": "a43432c78c4a57401d3790d04a17626d9c5f1c5b55f685eebf2656bf548748de",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-blue-hour-tr",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-blue-hour-tr.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1506171,
+   "sha256": "cb594de41180aa78ab0a63a1d5b200d732fcf1515d170a637a52323a72805368",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-foggy-dawn-bl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-foggy-dawn-bl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1546953,
+   "sha256": "d3acb76267b63ce374c07a034188e05daafc37bc53cb758e67f462e6a3260aa9",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-foggy-dawn-br",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-foggy-dawn-br.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1540246,
+   "sha256": "bdc35b77a45f7e398dc89148a1467b91b8d60c2cdcb8e02bdd9216f70ded00a0",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-foggy-dawn-tl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-foggy-dawn-tl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1558224,
+   "sha256": "9b1fe67ef6093ded39f14b31eced04ae7feddba14021175151e90ee189e26d0c",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-foggy-dawn-tr",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-foggy-dawn-tr.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1655396,
+   "sha256": "8b776e9b3f0f3ad137b49e40d72a3762d9d297a588e213576408a5aa127b9a61",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-golden-hour-bl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-golden-hour-bl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1566739,
+   "sha256": "4e107676f9f223ea6b455a79645e9538badfe5f6d571b6046e8e521ba476e327",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-golden-hour-br",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-golden-hour-br.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1561309,
+   "sha256": "c160eff343701229e0d250392b95aa2ec04594c021a373d93cfdd241d3e7af6d",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-golden-hour-tl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-golden-hour-tl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 2025104,
+   "sha256": "c167db4e0b9d6d2267f622da353ad6686388d982dbdb4d5eb989dcf67fc79aab",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-golden-hour-tr",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-golden-hour-tr.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1886207,
+   "sha256": "3ee7d5221ec69a599b144b252efe81ecf200627a42e4cd8ac7e0a80189aa99df",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-nebula-bl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-nebula-bl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 2845323,
+   "sha256": "7348253353ef2f6da341bf97441b1498388df08cdbdf9c7cea71763ad19450c8",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-nebula-br",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-nebula-br.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 2624657,
+   "sha256": "12ae905314af191424a24707d4b51d11d0c48204a49e43ed842b2e9a86bd5d17",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-nebula-tl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-nebula-tl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 2646299,
+   "sha256": "ce1c8b4ac3d2f7063f64a84d6216a31b0f88cc5ac83736100e0f9c1ffe45b874",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-nebula-tr",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-nebula-tr.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 2744878,
+   "sha256": "d44268594066da8bb3a7bd283ad8300f92336b45721520ecf2e237cdeddc6d5f",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-storm-bl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-storm-bl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1611805,
+   "sha256": "be9ae31e7d00a8e1609d7f301282e61320e67c7d9719c0b9c6ea22c8fdab544a",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-storm-br",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-storm-br.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1549653,
+   "sha256": "0f50da6eca20cfb4a12f9accda2383dc387d208d3fa854ded9b2bb72e14f57b9",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-storm-tl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-storm-tl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 2083858,
+   "sha256": "1e48c332228876411e5fbb450c41a9733e38a2720d27d64d73d7fc131ba6e5fc",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-storm-tr",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-storm-tr.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1902880,
+   "sha256": "a37289fad6773c5c9da2105c578b2baca272e4dbd3a14c3beb916507d47273e4",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-toon-sunset-bl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-toon-sunset-bl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1580533,
+   "sha256": "1d67559d8b4910b94032565b4e84dc4ca49d48dbe4789a35f698763d3fac5869",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-toon-sunset-br",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-toon-sunset-br.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1499590,
+   "sha256": "4359578066a739a36362805039b37af764debee7dc90656f31328ccddd4a5da1",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-toon-sunset-tl",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-toon-sunset-tl.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1739134,
+   "sha256": "5947147238c9c32fe7f6db71ddedeb56fce1d790a50babb3d5a539f46ca65486",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/skies/parts/sky-toon-sunset-tr",
+   "kind": "sky-part",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/skies/parts/sky-toon-sunset-tr.png",
+   "width": 1774,
+   "height": 887,
+   "alpha": false,
+   "bytes": 1650034,
+   "sha256": "b7f20471b65df92bbb5551281a3fa7fb2b224a3ab72646c446f12fa27d4f4aed",
+   "background": "opaque",
+   "repeat": "none",
+   "seam": "n/a",
+   "status": "raw",
+   "issues": [
+    "one of a base picture and its four redrawn quarters; not stitched into a full-size sky yet"
+   ],
+   "batch": "2026-11-26-batch2"
+  }
+ ]
+}

@@ -1,0 +1,4974 @@
+{
+ "schema": 1,
+ "baseUrl": "https://raw.githubusercontent.com/zhudaandzhuer/zhuda-engine-assets/main/",
+ "how": "The address of a file is baseUrl + path. Read catalog/kinds.json first, then the slice of the kind you need; this file is every slice together.",
+ "status": {
+  "ok": "fits what was asked, by measurement and a look at thumbnails; nobody has looked at it closely",
+  "flagged": "usable, with the stated issue",
+  "raw": "as generated, a step of post-processing is still owed (the issue says which)",
+  "redo": "wrong; do not use, it is kept so that the redo can be compared"
+ },
+ "kind": "material",
+ "what": "A tiling surface as a folder: albedo, height and, where made, a normal map (tangent space, OpenGL: green up).",
+ "count": 173,
+ "assets": [
+  {
+   "id": "textures/materials/alien-ground",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/alien-ground/albedo.png",
+   "files": {
+    "albedo": "textures/materials/alien-ground/albedo.png",
+    "height": "textures/materials/alien-ground/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3855765,
+   "sha256": "3deb9e02ff552dcdf271ece72d9f6eb449624e700abc1a9850261857a2532c90",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/alien-hive",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/alien-hive/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/alien-hive/albedo-512.png",
+    "albedo": "textures/materials/alien-hive/albedo.png",
+    "height-512": "textures/materials/alien-hive/height-512.png",
+    "height": "textures/materials/alien-hive/height.png",
+    "normal-512": "textures/materials/alien-hive/normal-512.png",
+    "normal": "textures/materials/alien-hive/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1901199,
+   "sha256": "97ffa7048405de5442bf14379465d90f934f7db12120330248a6c74d24b64034",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/alpine-scree",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/alpine-scree/albedo.png",
+   "files": {
+    "albedo": "textures/materials/alpine-scree/albedo.png",
+    "height": "textures/materials/alpine-scree/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4146643,
+   "sha256": "9a07524e70fe74a98b4f7e1d67ace1407e7ac6a554a4fad7c7ad06be59834054",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/asphalt-road",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/asphalt-road/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/asphalt-road/albedo-512.png",
+    "albedo": "textures/materials/asphalt-road/albedo.png",
+    "height-512": "textures/materials/asphalt-road/height-512.png",
+    "height": "textures/materials/asphalt-road/height.png",
+    "normal-512": "textures/materials/asphalt-road/normal-512.png",
+    "normal": "textures/materials/asphalt-road/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2304965,
+   "sha256": "d5c63db7b046029ce4f86f38acefe39eb00709db30d8aa2e14f26a784c2dd1dc",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/asphalt-shingles",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/asphalt-shingles/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/asphalt-shingles/albedo-512.png",
+    "albedo": "textures/materials/asphalt-shingles/albedo.png",
+    "height-512": "textures/materials/asphalt-shingles/height-512.png",
+    "height": "textures/materials/asphalt-shingles/height.png",
+    "normal-512": "textures/materials/asphalt-shingles/normal-512.png",
+    "normal": "textures/materials/asphalt-shingles/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2432974,
+   "sha256": "11cf3ee64c12316dd950a69b61f0d0500164ca7113aba4932a38f38e31c23c2d",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/bamboo-floor",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/bamboo-floor/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/bamboo-floor/albedo-512.png",
+    "albedo": "textures/materials/bamboo-floor/albedo.png",
+    "height-512": "textures/materials/bamboo-floor/height-512.png",
+    "height": "textures/materials/bamboo-floor/height.png",
+    "normal-512": "textures/materials/bamboo-floor/normal-512.png",
+    "normal": "textures/materials/bamboo-floor/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1404896,
+   "sha256": "fb2a24b9f15f6a736b61fc25ddfe07daaa2510a46d68117c0f629c3e52c66f76",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/bamboo-wall",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/bamboo-wall/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/bamboo-wall/albedo-512.png",
+    "albedo": "textures/materials/bamboo-wall/albedo.png",
+    "height-512": "textures/materials/bamboo-wall/height-512.png",
+    "height": "textures/materials/bamboo-wall/height.png",
+    "normal-512": "textures/materials/bamboo-wall/normal-512.png",
+    "normal": "textures/materials/bamboo-wall/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1761958,
+   "sha256": "5e7b17a049a96af2f5e7b4194dd9e1c89384ba8d980326981a2f1adfb25d3a1b",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "wall",
+   "name_zh": "竹牆",
+   "use_zh": "竹屋、竹籬、竹筏",
+   "suggested": {
+    "tileMeters": [
+     1.5,
+     1.5
+    ],
+    "roughness": 0.6,
+    "metallic": 0
+   },
+   "note_zh": "竹竿垂直"
+  },
+  {
+   "id": "textures/materials/beach-shells",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/beach-shells/albedo.png",
+   "files": {
+    "albedo": "textures/materials/beach-shells/albedo.png",
+    "height": "textures/materials/beach-shells/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4381375,
+   "sha256": "400ddbf6b2eba317fbcdb3e542f5c944eb9015db810eeb90242079a1b0299ce2",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/beast-hide",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/beast-hide/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/beast-hide/albedo-512.png",
+    "albedo": "textures/materials/beast-hide/albedo.png",
+    "height-512": "textures/materials/beast-hide/height-512.png",
+    "height": "textures/materials/beast-hide/height.png",
+    "normal-512": "textures/materials/beast-hide/normal-512.png",
+    "normal": "textures/materials/beast-hide/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2340799,
+   "sha256": "3c4da38d28f3641a90516e5aff40b2cf9376e01715e74d604b2976a4090b9557",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "厚皮",
+   "use_zh": "犀、象、夔牛",
+   "suggested": {
+    "tileMeters": [
+     1,
+     1
+    ],
+    "roughness": 0.85,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/black-lacquer-gold",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/black-lacquer-gold/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/black-lacquer-gold/albedo-512.png",
+    "albedo": "textures/materials/black-lacquer-gold/albedo.png",
+    "height-512": "textures/materials/black-lacquer-gold/height-512.png",
+    "height": "textures/materials/black-lacquer-gold/height.png",
+    "normal-512": "textures/materials/black-lacquer-gold/normal-512.png",
+    "normal": "textures/materials/black-lacquer-gold/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1609538,
+   "sha256": "cc96cd6d26eeb237a9454665c17ac3b0eb524d829d52844cac0216a9e034ebf2",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/board-formed-concrete",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/board-formed-concrete/albedo.png",
+   "files": {
+    "albedo": "textures/materials/board-formed-concrete/albedo.png",
+    "height": "textures/materials/board-formed-concrete/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3650276,
+   "sha256": "7466683e634129e67f43c908119648355db10633ce4c41bdd729ba3b9a0d440d",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/bone-ivory",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/bone-ivory/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/bone-ivory/albedo-512.png",
+    "albedo": "textures/materials/bone-ivory/albedo.png",
+    "height-512": "textures/materials/bone-ivory/height-512.png",
+    "height": "textures/materials/bone-ivory/height.png",
+    "normal-512": "textures/materials/bone-ivory/normal-512.png",
+    "normal": "textures/materials/bone-ivory/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2048036,
+   "sha256": "98e774b52d4ed46f59ab83f2e0d85c43427d878da955661bdcf9d21c3ea74663",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "骨與象牙",
+   "use_zh": "骨、牙、飾件",
+   "suggested": {
+    "tileMeters": [
+     0.5,
+     0.5
+    ],
+    "roughness": 0.5,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/brick-painted-white",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/brick-painted-white/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/brick-painted-white/albedo-512.png",
+    "albedo": "textures/materials/brick-painted-white/albedo.png",
+    "height-512": "textures/materials/brick-painted-white/height-512.png",
+    "height": "textures/materials/brick-painted-white/height.png",
+    "normal-512": "textures/materials/brick-painted-white/normal-512.png",
+    "normal": "textures/materials/brick-painted-white/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2138185,
+   "sha256": "73d377a9c66fcdc3cb1455bf2d94f52d6795087815939b3a12a530a567935725",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/brick-paving",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/brick-paving/albedo.png",
+   "files": {
+    "albedo": "textures/materials/brick-paving/albedo.png",
+    "height": "textures/materials/brick-paving/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3604116,
+   "sha256": "bf23f05794a741a95bf22c9bab429ad336721497ffe13d54996665d319f944eb",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/bronze-thunder",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/bronze-thunder/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/bronze-thunder/albedo-512.png",
+    "albedo": "textures/materials/bronze-thunder/albedo.png",
+    "height-512": "textures/materials/bronze-thunder/height-512.png",
+    "height": "textures/materials/bronze-thunder/height.png",
+    "normal-512": "textures/materials/bronze-thunder/normal-512.png",
+    "normal": "textures/materials/bronze-thunder/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2253485,
+   "sha256": "3729f6270d82eb1bead020c40e3835229bd78d7c277895d483ae38e564542970",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "metal",
+   "name_zh": "青銅雷紋",
+   "use_zh": "鼎、鐘、饕餮紋器物",
+   "suggested": {
+    "tileMeters": [
+     0.5,
+     0.5
+    ],
+    "roughness": 0.45,
+    "metallic": 1
+   },
+   "note_zh": "規則格紋"
+  },
+  {
+   "id": "textures/materials/brushed-steel",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/brushed-steel/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/brushed-steel/albedo-512.png",
+    "albedo": "textures/materials/brushed-steel/albedo.png",
+    "height-512": "textures/materials/brushed-steel/height-512.png",
+    "height": "textures/materials/brushed-steel/height.png",
+    "normal-512": "textures/materials/brushed-steel/normal-512.png",
+    "normal": "textures/materials/brushed-steel/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1102920,
+   "sha256": "9d4c71a51fc815265f2b4fd8bd6e87d4022df1fe4868202b1d1d7497118f0ea5",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "metal",
+   "name_zh": "髮絲紋不鏽鋼",
+   "use_zh": "廚具、電梯、機械外殼",
+   "suggested": {
+    "tileMeters": [
+     1,
+     1
+    ],
+    "roughness": 0.35,
+    "metallic": 1
+   },
+   "note_zh": "髮絲紋水平"
+  },
+  {
+   "id": "textures/materials/burlap",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/burlap/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/burlap/albedo-512.png",
+    "albedo": "textures/materials/burlap/albedo.png",
+    "height-512": "textures/materials/burlap/height-512.png",
+    "height": "textures/materials/burlap/height.png",
+    "normal-512": "textures/materials/burlap/normal-512.png",
+    "normal": "textures/materials/burlap/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2330299,
+   "sha256": "40d5a054eaa1b67178118fa5e65fc40238a77efdacb8118bbfbcafbb47831c9e",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/camo-woodland",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/camo-woodland/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/camo-woodland/albedo-512.png",
+    "albedo": "textures/materials/camo-woodland/albedo.png",
+    "height-512": "textures/materials/camo-woodland/height-512.png",
+    "height": "textures/materials/camo-woodland/height.png",
+    "normal-512": "textures/materials/camo-woodland/normal-512.png",
+    "normal": "textures/materials/camo-woodland/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2411603,
+   "sha256": "2e47a783ba39a2a916e8fe09b89d369430f5be58f0b4aa15b1d6836641096a54",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/canvas-olive",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/canvas-olive/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/canvas-olive/albedo-512.png",
+    "albedo": "textures/materials/canvas-olive/albedo.png",
+    "height-512": "textures/materials/canvas-olive/height-512.png",
+    "height": "textures/materials/canvas-olive/height.png",
+    "normal-512": "textures/materials/canvas-olive/normal-512.png",
+    "normal": "textures/materials/canvas-olive/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2150544,
+   "sha256": "f553677b9407ab68ad817ee792e111e9c94f7627b0384d845a0bd9b1650a7639",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/carbon-fibre",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/carbon-fibre/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/carbon-fibre/albedo-512.png",
+    "albedo": "textures/materials/carbon-fibre/albedo.png",
+    "height-512": "textures/materials/carbon-fibre/height-512.png",
+    "height": "textures/materials/carbon-fibre/height.png",
+    "normal-512": "textures/materials/carbon-fibre/normal-512.png",
+    "normal": "textures/materials/carbon-fibre/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1503708,
+   "sha256": "f714a618c4cf2ce7cfb3317e1bc4f06afe207dfff57bb6d0055abf3fe065d67b",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/carpet-loop-grey",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/carpet-loop-grey/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/carpet-loop-grey/albedo-512.png",
+    "albedo": "textures/materials/carpet-loop-grey/albedo.png",
+    "height-512": "textures/materials/carpet-loop-grey/height-512.png",
+    "height": "textures/materials/carpet-loop-grey/height.png",
+    "normal-512": "textures/materials/carpet-loop-grey/normal-512.png",
+    "normal": "textures/materials/carpet-loop-grey/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2429209,
+   "sha256": "85f4a2050e87ace8b16ae0ca09f3c242ad16d8af12e02c83826dace84f20ea4a",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/castle-blocks",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/castle-blocks/albedo.png",
+   "files": {
+    "albedo": "textures/materials/castle-blocks/albedo.png",
+    "height": "textures/materials/castle-blocks/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4473172,
+   "sha256": "20c0d9e2426b6127a6d314b0a69d598dfea2a6ce4a3049e8d0ea288a7460d38c",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/cave-wall-wet",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/cave-wall-wet/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/cave-wall-wet/albedo-512.png",
+    "albedo": "textures/materials/cave-wall-wet/albedo.png",
+    "height-512": "textures/materials/cave-wall-wet/height-512.png",
+    "height": "textures/materials/cave-wall-wet/height.png",
+    "normal-512": "textures/materials/cave-wall-wet/normal-512.png",
+    "normal": "textures/materials/cave-wall-wet/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2101486,
+   "sha256": "86395816332086f6c52d5f9b4e35c5646660d63fcdbb0108c9205c60c6bd0640",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/ceiling-tiles",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/ceiling-tiles/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/ceiling-tiles/albedo-512.png",
+    "albedo": "textures/materials/ceiling-tiles/albedo.png",
+    "height-512": "textures/materials/ceiling-tiles/height-512.png",
+    "height": "textures/materials/ceiling-tiles/height.png",
+    "normal-512": "textures/materials/ceiling-tiles/normal-512.png",
+    "normal": "textures/materials/ceiling-tiles/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2048099,
+   "sha256": "a21d04b110da0e4ca6f961f13622c74793b14e8396b36a66864761e5635b1ae6",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/ceramic-tile-white",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/ceramic-tile-white/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/ceramic-tile-white/albedo-512.png",
+    "albedo": "textures/materials/ceramic-tile-white/albedo.png",
+    "height-512": "textures/materials/ceramic-tile-white/height-512.png",
+    "height": "textures/materials/ceramic-tile-white/height.png",
+    "normal-512": "textures/materials/ceramic-tile-white/normal-512.png",
+    "normal": "textures/materials/ceramic-tile-white/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 968490,
+   "sha256": "75bea55e83f221ec071ccff162435f230a462ebdac6c6006548d4cf761ce0070",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/charred-wood",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/charred-wood/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/charred-wood/albedo-512.png",
+    "albedo": "textures/materials/charred-wood/albedo.png",
+    "height-512": "textures/materials/charred-wood/height-512.png",
+    "height": "textures/materials/charred-wood/height.png",
+    "normal-512": "textures/materials/charred-wood/normal-512.png",
+    "normal": "textures/materials/charred-wood/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2021182,
+   "sha256": "dab2349fcc020bcd6c6f61c8934f6794a3bbbdca705957e19dcc30639b961eb4",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/cinder-block-wall",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/cinder-block-wall/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/cinder-block-wall/albedo-512.png",
+    "albedo": "textures/materials/cinder-block-wall/albedo.png",
+    "height-512": "textures/materials/cinder-block-wall/height-512.png",
+    "height": "textures/materials/cinder-block-wall/height.png",
+    "normal-512": "textures/materials/cinder-block-wall/normal-512.png",
+    "normal": "textures/materials/cinder-block-wall/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2382500,
+   "sha256": "6151fb25b0572de08d2ec750fb6e1b8c175fb6f16aa80803beabc1082bd924bf",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/circuit-board",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/circuit-board/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/circuit-board/albedo-512.png",
+    "albedo": "textures/materials/circuit-board/albedo.png",
+    "height-512": "textures/materials/circuit-board/height-512.png",
+    "height": "textures/materials/circuit-board/height.png",
+    "normal-512": "textures/materials/circuit-board/normal-512.png",
+    "normal": "textures/materials/circuit-board/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1789398,
+   "sha256": "d7b898831ce53b332f4d7e081b70fec68c8312a5a4fac90f7a8c58459113fa29",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/clay-roof-tiles",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/clay-roof-tiles/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/clay-roof-tiles/albedo-512.png",
+    "albedo": "textures/materials/clay-roof-tiles/albedo.png",
+    "height-512": "textures/materials/clay-roof-tiles/height-512.png",
+    "height": "textures/materials/clay-roof-tiles/height.png",
+    "normal-512": "textures/materials/clay-roof-tiles/normal-512.png",
+    "normal": "textures/materials/clay-roof-tiles/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1768934,
+   "sha256": "91fc47093ecf9d178344e638d469dff199a2d071493542f153a210ac40268fbe",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "roof",
+   "name_zh": "灰瓦",
+   "use_zh": "中式屋頂",
+   "suggested": {
+    "tileMeters": [
+     1.6,
+     1.6
+    ],
+    "roughness": 0.8,
+    "metallic": 0
+   },
+   "note_zh": "瓦壟由上往下"
+  },
+  {
+   "id": "textures/materials/cliff-rock",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/cliff-rock/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/cliff-rock/albedo-512.png",
+    "albedo": "textures/materials/cliff-rock/albedo.png",
+    "height-512": "textures/materials/cliff-rock/height-512.png",
+    "height": "textures/materials/cliff-rock/height.png",
+    "normal-512": "textures/materials/cliff-rock/normal-512.png",
+    "normal": "textures/materials/cliff-rock/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2270441,
+   "sha256": "a469fba69d71181bce0b7617cc9c82ea4230c9a93d4dc5d393221f723fc16a65",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "rock",
+   "name_zh": "層狀岩壁",
+   "use_zh": "懸崖、峽谷、山壁（配合 triplanar 用配方；圖片材質不支援）",
+   "suggested": {
+    "tileMeters": [
+     4,
+     4
+    ],
+    "roughness": 0.9,
+    "metallic": 0
+   },
+   "note_zh": "岩層水平"
+  },
+  {
+   "id": "textures/materials/cloud-brocade-blue",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/cloud-brocade-blue/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/cloud-brocade-blue/albedo-512.png",
+    "albedo": "textures/materials/cloud-brocade-blue/albedo.png",
+    "height-512": "textures/materials/cloud-brocade-blue/height-512.png",
+    "height": "textures/materials/cloud-brocade-blue/height.png",
+    "normal-512": "textures/materials/cloud-brocade-blue/normal-512.png",
+    "normal": "textures/materials/cloud-brocade-blue/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2601869,
+   "sha256": "e0b27018f5eda89452f0059cc1d9c334659b98fe4da0a3a2de1adc01b8aed7cb",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/cloud-relief-stone",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/cloud-relief-stone/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/cloud-relief-stone/albedo-512.png",
+    "albedo": "textures/materials/cloud-relief-stone/albedo.png",
+    "height-512": "textures/materials/cloud-relief-stone/height-512.png",
+    "height": "textures/materials/cloud-relief-stone/height.png",
+    "normal-512": "textures/materials/cloud-relief-stone/normal-512.png",
+    "normal": "textures/materials/cloud-relief-stone/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2165062,
+   "sha256": "9dc0deb80b29a906c7167ceebfb3704fe12f30d45ed90aeaefd820e80abab3c1",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/cobblestone",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/cobblestone/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/cobblestone/albedo-512.png",
+    "albedo": "textures/materials/cobblestone/albedo.png",
+    "height-512": "textures/materials/cobblestone/height-512.png",
+    "height": "textures/materials/cobblestone/height.png",
+    "normal-512": "textures/materials/cobblestone/normal-512.png",
+    "normal": "textures/materials/cobblestone/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2224971,
+   "sha256": "160bccc4f56dd9ecfafa6bd5ae1c99d836727729d27bf3453f4a98aa1ac2bb07",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "卵石路",
+   "use_zh": "老街、廣場",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.85,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/concrete-poured",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/concrete-poured/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/concrete-poured/albedo-512.png",
+    "albedo": "textures/materials/concrete-poured/albedo.png",
+    "height-512": "textures/materials/concrete-poured/height-512.png",
+    "height": "textures/materials/concrete-poured/height.png",
+    "normal-512": "textures/materials/concrete-poured/normal-512.png",
+    "normal": "textures/materials/concrete-poured/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1818547,
+   "sha256": "bdb8b11cea0c0ddb345d29243b60e48b35cb1ccc4c34d771e93027e40d8e1ed0",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/copper-patina",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/copper-patina/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/copper-patina/albedo-512.png",
+    "albedo": "textures/materials/copper-patina/albedo.png",
+    "height-512": "textures/materials/copper-patina/height-512.png",
+    "height": "textures/materials/copper-patina/height.png",
+    "normal-512": "textures/materials/copper-patina/normal-512.png",
+    "normal": "textures/materials/copper-patina/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2046384,
+   "sha256": "3c96e3c302dfb31ca22619efd4b19aac16703c75409189b9473efbd80afca668",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "metal",
+   "name_zh": "銅綠",
+   "use_zh": "銅像、屋頂、古鐘",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.6,
+    "metallic": 0.7
+   }
+  },
+  {
+   "id": "textures/materials/coral",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/coral/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/coral/albedo-512.png",
+    "albedo": "textures/materials/coral/albedo.png",
+    "height-512": "textures/materials/coral/height-512.png",
+    "height": "textures/materials/coral/height.png",
+    "normal-512": "textures/materials/coral/normal-512.png",
+    "normal": "textures/materials/coral/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2135553,
+   "sha256": "8ed693fa686353187b33b339625da3978fab3cc225f9a1f53b09ab9050900ad4",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/corrugated-rusty",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/corrugated-rusty/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/corrugated-rusty/albedo-512.png",
+    "albedo": "textures/materials/corrugated-rusty/albedo.png",
+    "height-512": "textures/materials/corrugated-rusty/height-512.png",
+    "height": "textures/materials/corrugated-rusty/height.png",
+    "normal-512": "textures/materials/corrugated-rusty/normal-512.png",
+    "normal": "textures/materials/corrugated-rusty/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2108955,
+   "sha256": "382f0ce12504513208060eeb2f9580e949b595c7f617a91d4a2f3af6235cdff3",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/cotton-white",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/cotton-white/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/cotton-white/albedo-512.png",
+    "albedo": "textures/materials/cotton-white/albedo.png",
+    "height-512": "textures/materials/cotton-white/height-512.png",
+    "height": "textures/materials/cotton-white/height.png",
+    "normal-512": "textures/materials/cotton-white/normal-512.png",
+    "normal": "textures/materials/cotton-white/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1584772,
+   "sha256": "56f7606b4dac7f043a0b39f45149590cb052b85ed600864f639054d6affcf984",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/cracked-earth",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/cracked-earth/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/cracked-earth/albedo-512.png",
+    "albedo": "textures/materials/cracked-earth/albedo.png",
+    "height-512": "textures/materials/cracked-earth/height-512.png",
+    "height": "textures/materials/cracked-earth/height.png",
+    "normal-512": "textures/materials/cracked-earth/normal-512.png",
+    "normal": "textures/materials/cracked-earth/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2215923,
+   "sha256": "c4e889c46e0451c2140a5a35c5b4d9cd0ee2ae07cd8da26472b83d5f24f8f340",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "龜裂旱地",
+   "use_zh": "乾涸湖床、荒地",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/crystal-ground",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/crystal-ground/albedo.png",
+   "files": {
+    "albedo": "textures/materials/crystal-ground/albedo.png",
+    "height": "textures/materials/crystal-ground/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4300973,
+   "sha256": "ea08f78e71eb0ea7267ec8b5fd33a1d443acfdde3497f1a3404f9ce055a48569",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/dark-oak-planks",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/dark-oak-planks/albedo.png",
+   "files": {
+    "albedo": "textures/materials/dark-oak-planks/albedo.png",
+    "height": "textures/materials/dark-oak-planks/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 2991905,
+   "sha256": "a78380f7752f5d989a14f2206ea7890bb2dd00d1238c6554ff98a70352e5c996",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/denim-blue",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/denim-blue/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/denim-blue/albedo-512.png",
+    "albedo": "textures/materials/denim-blue/albedo.png",
+    "height-512": "textures/materials/denim-blue/height-512.png",
+    "height": "textures/materials/denim-blue/height.png",
+    "normal-512": "textures/materials/denim-blue/normal-512.png",
+    "normal": "textures/materials/denim-blue/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2297385,
+   "sha256": "b259be6227ca441aaf1ecb9ab48f7f8da590755294b68997096580c33ff05d5c",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/desert-gravel",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/desert-gravel/albedo.png",
+   "files": {
+    "albedo": "textures/materials/desert-gravel/albedo.png",
+    "height": "textures/materials/desert-gravel/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3973165,
+   "sha256": "b4d87b84847d3010c8ebd6d899679d1387693eb0fca44dfe3b089cc530a9d281",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/diamond-plate",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/diamond-plate/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/diamond-plate/albedo-512.png",
+    "albedo": "textures/materials/diamond-plate/albedo.png",
+    "height-512": "textures/materials/diamond-plate/height-512.png",
+    "height": "textures/materials/diamond-plate/height.png",
+    "normal-512": "textures/materials/diamond-plate/normal-512.png",
+    "normal": "textures/materials/diamond-plate/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1981526,
+   "sha256": "5401ceb03c881a7f76716380ab720c23f534275749962bf25a18a9ac2fd9b8ab",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/dirt-path",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/dirt-path/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/dirt-path/albedo-512.png",
+    "albedo": "textures/materials/dirt-path/albedo.png",
+    "height-512": "textures/materials/dirt-path/height-512.png",
+    "height": "textures/materials/dirt-path/height.png",
+    "normal-512": "textures/materials/dirt-path/normal-512.png",
+    "normal": "textures/materials/dirt-path/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2297568,
+   "sha256": "31a972ed8f020b7c4c501f5a7c9f87cb51b3c7279e1b146d8c8a99249be0a5fd",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "泥土路",
+   "use_zh": "小路、空地、田埂",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/dragon-scales",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/dragon-scales/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/dragon-scales/albedo-512.png",
+    "albedo": "textures/materials/dragon-scales/albedo.png",
+    "height-512": "textures/materials/dragon-scales/height-512.png",
+    "height": "textures/materials/dragon-scales/height.png",
+    "normal-512": "textures/materials/dragon-scales/normal-512.png",
+    "normal": "textures/materials/dragon-scales/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2056122,
+   "sha256": "e1bdea9c813524c39ce39416cf2c522cf66ae0188b13bb68e37023b54a3d2e82",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "龍鱗",
+   "use_zh": "龍、蛟的身體",
+   "suggested": {
+    "tileMeters": [
+     0.4,
+     0.4
+    ],
+    "roughness": 0.35,
+    "metallic": 0
+   },
+   "note_zh": "鱗尖朝下"
+  },
+  {
+   "id": "textures/materials/driftwood",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/driftwood/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/driftwood/albedo-512.png",
+    "albedo": "textures/materials/driftwood/albedo.png",
+    "height-512": "textures/materials/driftwood/height-512.png",
+    "height": "textures/materials/driftwood/height.png",
+    "normal-512": "textures/materials/driftwood/normal-512.png",
+    "normal": "textures/materials/driftwood/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2234117,
+   "sha256": "88751b84c21e20e333b58f0d4f49304db8008afc8c11b506ae5bb293e58405c5",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/dungeon-brick",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/dungeon-brick/albedo.png",
+   "files": {
+    "albedo": "textures/materials/dungeon-brick/albedo.png",
+    "height": "textures/materials/dungeon-brick/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3279250,
+   "sha256": "e55a73df942b88f51ea861f19eabd09043fa866ab35e13c28bd48636cd813c81",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/felt-grey",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/felt-grey/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/felt-grey/albedo-512.png",
+    "albedo": "textures/materials/felt-grey/albedo.png",
+    "height-512": "textures/materials/felt-grey/height-512.png",
+    "height": "textures/materials/felt-grey/height.png",
+    "normal-512": "textures/materials/felt-grey/normal-512.png",
+    "normal": "textures/materials/felt-grey/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2056898,
+   "sha256": "ccc8bca99240313725bfae662785d34c2c67be65ff035ebfe2d2386879210940",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/fish-scales",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/fish-scales/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/fish-scales/albedo-512.png",
+    "albedo": "textures/materials/fish-scales/albedo.png",
+    "height-512": "textures/materials/fish-scales/height-512.png",
+    "height": "textures/materials/fish-scales/height.png",
+    "normal-512": "textures/materials/fish-scales/normal-512.png",
+    "normal": "textures/materials/fish-scales/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2163523,
+   "sha256": "6db20e81bdd72e39300516ced50445f621c2b086dff42d2ccb0d4dca65674d0d",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "魚鱗",
+   "use_zh": "魚、鯤",
+   "suggested": {
+    "tileMeters": [
+     0.4,
+     0.4
+    ],
+    "roughness": 0.3,
+    "metallic": 0
+   },
+   "note_zh": "邊緣一圈有幾片鱗被切到"
+  },
+  {
+   "id": "textures/materials/flagstone-floor",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/flagstone-floor/albedo.png",
+   "files": {
+    "albedo": "textures/materials/flagstone-floor/albedo.png",
+    "height": "textures/materials/flagstone-floor/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3862591,
+   "sha256": "b05cb02ebfb8ca42dc218c402b15734ef89e139e5ecd8ead8c23da4984bea775",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/flower-meadow",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/flower-meadow/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/flower-meadow/albedo-512.png",
+    "albedo": "textures/materials/flower-meadow/albedo.png",
+    "height-512": "textures/materials/flower-meadow/height-512.png",
+    "height": "textures/materials/flower-meadow/height.png",
+    "normal-512": "textures/materials/flower-meadow/normal-512.png",
+    "normal": "textures/materials/flower-meadow/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2489064,
+   "sha256": "4ee0417fb1c309f6508bd18ace60ce1a49efed1d9d862a31cf7ecceb6c151f06",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/forest-floor",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/forest-floor/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/forest-floor/albedo-512.png",
+    "albedo": "textures/materials/forest-floor/albedo.png",
+    "height-512": "textures/materials/forest-floor/height-512.png",
+    "height": "textures/materials/forest-floor/height.png",
+    "normal-512": "textures/materials/forest-floor/normal-512.png",
+    "normal": "textures/materials/forest-floor/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2462134,
+   "sha256": "b36054fa2fff2aaa1a33d37c09a3411594df135a71f72001b37c4ab78e189e69",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "森林落葉地",
+   "use_zh": "樹林地面、山徑",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/galvanized-steel",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/galvanized-steel/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/galvanized-steel/albedo-512.png",
+    "albedo": "textures/materials/galvanized-steel/albedo.png",
+    "height-512": "textures/materials/galvanized-steel/height-512.png",
+    "height": "textures/materials/galvanized-steel/height.png",
+    "normal-512": "textures/materials/galvanized-steel/normal-512.png",
+    "normal": "textures/materials/galvanized-steel/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2063539,
+   "sha256": "af05fc59c282a932fe6f59f1ec53567102f2b304b07c4c88953188185e223d1e",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/glacier-ice",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/glacier-ice/albedo.png",
+   "files": {
+    "albedo": "textures/materials/glacier-ice/albedo.png",
+    "height": "textures/materials/glacier-ice/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3540253,
+   "sha256": "1bb3f423c4e9531e8a1978c859802653a0ea0cc31ce2011a3e7782f59818f691",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/glass-curtain-wall",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/glass-curtain-wall/albedo.png",
+   "files": {
+    "albedo": "textures/materials/glass-curtain-wall/albedo.png",
+    "height": "textures/materials/glass-curtain-wall/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 1768496,
+   "sha256": "722fec56ee18fc71e6cbc0267436ffa383770efce5cf54ea3ca56fc882d46856",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/glazed-roof-tiles-green",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/glazed-roof-tiles-green/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/glazed-roof-tiles-green/albedo-512.png",
+    "albedo": "textures/materials/glazed-roof-tiles-green/albedo.png",
+    "height-512": "textures/materials/glazed-roof-tiles-green/height-512.png",
+    "height": "textures/materials/glazed-roof-tiles-green/height.png",
+    "normal-512": "textures/materials/glazed-roof-tiles-green/normal-512.png",
+    "normal": "textures/materials/glazed-roof-tiles-green/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1950662,
+   "sha256": "0411161f0db8baf1599e1ab2d6579f3af96a1c8b7baea7b0146f7b07bed75164",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "flagged",
+   "issues": [
+    "a column of tiles is offset at the seam"
+   ],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/gold-ornate",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/gold-ornate/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/gold-ornate/albedo-512.png",
+    "albedo": "textures/materials/gold-ornate/albedo.png",
+    "height-512": "textures/materials/gold-ornate/height-512.png",
+    "height": "textures/materials/gold-ornate/height.png",
+    "normal-512": "textures/materials/gold-ornate/normal-512.png",
+    "normal": "textures/materials/gold-ornate/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2260161,
+   "sha256": "a4613007f9512d7f524d58ae38740042205e66a9febb5c9e78656c21fb8d6b26",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "metal",
+   "name_zh": "雲紋金飾",
+   "use_zh": "寶箱、王座、神器",
+   "suggested": {
+    "tileMeters": [
+     0.6,
+     0.6
+    ],
+    "roughness": 0.3,
+    "metallic": 1
+   }
+  },
+  {
+   "id": "textures/materials/golden-feathers",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/golden-feathers/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/golden-feathers/albedo-512.png",
+    "albedo": "textures/materials/golden-feathers/albedo.png",
+    "height-512": "textures/materials/golden-feathers/height-512.png",
+    "height": "textures/materials/golden-feathers/height.png",
+    "normal-512": "textures/materials/golden-feathers/normal-512.png",
+    "normal": "textures/materials/golden-feathers/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2271592,
+   "sha256": "da8c2cd53d1223640c7cf65824031ff87636afe2592958ffe7a6644b6a722b04",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "金羽",
+   "use_zh": "鳳凰、金烏",
+   "suggested": {
+    "tileMeters": [
+     0.4,
+     0.4
+    ],
+    "roughness": 0.5,
+    "metallic": 0
+   },
+   "note_zh": "羽尖朝下"
+  },
+  {
+   "id": "textures/materials/grass-lawn",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/grass-lawn/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/grass-lawn/albedo-512.png",
+    "albedo": "textures/materials/grass-lawn/albedo.png",
+    "height-512": "textures/materials/grass-lawn/height-512.png",
+    "height": "textures/materials/grass-lawn/height.png",
+    "normal-512": "textures/materials/grass-lawn/normal-512.png",
+    "normal": "textures/materials/grass-lawn/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2517088,
+   "sha256": "140e02f6537c1a67dd7960fe40798b867227f0bfc217db1aa5696518a99eaf2f",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "草皮",
+   "use_zh": "草地、庭院、球場",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/gravel",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/gravel/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/gravel/albedo-512.png",
+    "albedo": "textures/materials/gravel/albedo.png",
+    "height-512": "textures/materials/gravel/height-512.png",
+    "height": "textures/materials/gravel/height.png",
+    "normal-512": "textures/materials/gravel/normal-512.png",
+    "normal": "textures/materials/gravel/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2377150,
+   "sha256": "a58f47cb2d2300bca5c8715765b9ec77a4cf6172d9fe9eb6864ffb30d742bfae",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "碎石",
+   "use_zh": "碎石路、河床、鐵道",
+   "suggested": {
+    "tileMeters": [
+     1.5,
+     1.5
+    ],
+    "roughness": 0.9,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/grey-city-bricks",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/grey-city-bricks/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/grey-city-bricks/albedo-512.png",
+    "albedo": "textures/materials/grey-city-bricks/albedo.png",
+    "height-512": "textures/materials/grey-city-bricks/height-512.png",
+    "height": "textures/materials/grey-city-bricks/height.png",
+    "normal-512": "textures/materials/grey-city-bricks/normal-512.png",
+    "normal": "textures/materials/grey-city-bricks/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2215186,
+   "sha256": "11d35489dbf806c3fb10f5d61237a8f5572b329071830e179ea4f3463ec59189",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/heather-moor",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/heather-moor/albedo.png",
+   "files": {
+    "albedo": "textures/materials/heather-moor/albedo.png",
+    "height": "textures/materials/heather-moor/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4610837,
+   "sha256": "3af8ccdb361d4ce9f12811687e5e8b9e62d30d4ff813a8b49bda96c760095148",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/honeycomb",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/honeycomb/albedo.png",
+   "files": {
+    "albedo": "textures/materials/honeycomb/albedo.png",
+    "height": "textures/materials/honeycomb/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 2563102,
+   "sha256": "c5ee3ec0d3b8c2511dcdd082ccf3f9490aea21e7fe81d6163b254a177ca67af9",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/horn",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/horn/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/horn/albedo-512.png",
+    "albedo": "textures/materials/horn/albedo.png",
+    "height-512": "textures/materials/horn/height-512.png",
+    "height": "textures/materials/horn/height.png",
+    "normal-512": "textures/materials/horn/normal-512.png",
+    "normal": "textures/materials/horn/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1843250,
+   "sha256": "652dca17fe879a71e7394cdc5155a3febd1dce5bca22a8d08de076c3b9bdb388",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "角質",
+   "use_zh": "角、爪、喙",
+   "suggested": {
+    "tileMeters": [
+     0.5,
+     0.5
+    ],
+    "roughness": 0.4,
+    "metallic": 0
+   },
+   "note_zh": "平鋪看得出重複的色帶，建議只用一格"
+  },
+  {
+   "id": "textures/materials/ice",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/ice/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/ice/albedo-512.png",
+    "albedo": "textures/materials/ice/albedo.png",
+    "height-512": "textures/materials/ice/height-512.png",
+    "height": "textures/materials/ice/height.png",
+    "normal-512": "textures/materials/ice/normal-512.png",
+    "normal": "textures/materials/ice/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1878820,
+   "sha256": "f341f3adb25d3eeed2009a48f6024d9cfe0b294d6bb665d4b52e9184c3bff23a",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "冰面",
+   "use_zh": "結冰湖面、冰洞",
+   "suggested": {
+    "tileMeters": [
+     3,
+     3
+    ],
+    "roughness": 0.15,
+    "metallic": 0
+   },
+   "note_zh": "粗糙度要低才像冰"
+  },
+  {
+   "id": "textures/materials/insect-chitin",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/insect-chitin/albedo.png",
+   "files": {
+    "albedo": "textures/materials/insect-chitin/albedo.png",
+    "height": "textures/materials/insect-chitin/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3369662,
+   "sha256": "75a2a6415d3cecbbf14c14ddf6176e4e1359a94447418f30aec11fcf3b5803e2",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/iron-armour",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/iron-armour/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/iron-armour/albedo-512.png",
+    "albedo": "textures/materials/iron-armour/albedo.png",
+    "height-512": "textures/materials/iron-armour/height-512.png",
+    "height": "textures/materials/iron-armour/height.png",
+    "normal-512": "textures/materials/iron-armour/normal-512.png",
+    "normal": "textures/materials/iron-armour/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2057605,
+   "sha256": "caf5ba90dea599304f0336b92f333ac04f3bd947b170cf2cb61174688d6d6cdf",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "metal",
+   "name_zh": "鐵甲",
+   "use_zh": "鎧甲、鐵門",
+   "suggested": {
+    "tileMeters": [
+     1,
+     1
+    ],
+    "roughness": 0.6,
+    "metallic": 0.9
+   },
+   "note_zh": "有橫向鉚釘條"
+  },
+  {
+   "id": "textures/materials/jade-green",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/jade-green/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/jade-green/albedo-512.png",
+    "albedo": "textures/materials/jade-green/albedo.png",
+    "height-512": "textures/materials/jade-green/height-512.png",
+    "height": "textures/materials/jade-green/height.png",
+    "normal-512": "textures/materials/jade-green/normal-512.png",
+    "normal": "textures/materials/jade-green/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1328873,
+   "sha256": "c9b3e8eb1249732c4c1cb35a4d8f3c38028fbd6b2be2ef78b28175d393098c3c",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "rock",
+   "name_zh": "青玉",
+   "use_zh": "玉器、寶座、飾件",
+   "suggested": {
+    "tileMeters": [
+     1,
+     1
+    ],
+    "roughness": 0.2,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/jungle-floor",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/jungle-floor/albedo.png",
+   "files": {
+    "albedo": "textures/materials/jungle-floor/albedo.png",
+    "height": "textures/materials/jungle-floor/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4141974,
+   "sha256": "218ed589fcfe3393127feacb55b0665c84629d843f68cf20d7cf40ebf942a40b",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/lacquer-lamellar",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/lacquer-lamellar/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/lacquer-lamellar/albedo-512.png",
+    "albedo": "textures/materials/lacquer-lamellar/albedo.png",
+    "height-512": "textures/materials/lacquer-lamellar/height-512.png",
+    "height": "textures/materials/lacquer-lamellar/height.png",
+    "normal-512": "textures/materials/lacquer-lamellar/normal-512.png",
+    "normal": "textures/materials/lacquer-lamellar/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1905399,
+   "sha256": "2530b8a162ad9e22c6110c4bfaf67ae854ce31777e0a1bf3a83503932efbc2b7",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "metal",
+   "name_zh": "漆甲札片",
+   "use_zh": "武將甲、兵俑",
+   "suggested": {
+    "tileMeters": [
+     0.5,
+     0.5
+    ],
+    "roughness": 0.4,
+    "metallic": 0.2
+   },
+   "note_zh": "規則札片"
+  },
+  {
+   "id": "textures/materials/lava-crust",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/lava-crust/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/lava-crust/albedo-512.png",
+    "albedo": "textures/materials/lava-crust/albedo.png",
+    "height-512": "textures/materials/lava-crust/height-512.png",
+    "height": "textures/materials/lava-crust/height.png",
+    "normal-512": "textures/materials/lava-crust/normal-512.png",
+    "normal": "textures/materials/lava-crust/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2088444,
+   "sha256": "23d51d6e145118ff31ef3d404f7c1da0a6520f57d1452085720a5f27e2c8c062",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "rock",
+   "name_zh": "熔岩殼",
+   "use_zh": "火山地面、熔岩巨人",
+   "suggested": {
+    "tileMeters": [
+     3,
+     3
+    ],
+    "roughness": 0.85,
+    "metallic": 0
+   },
+   "note_zh": "裂縫是亮的；要發光請另外設 emission 或加點光源"
+  },
+  {
+   "id": "textures/materials/lava-flow",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/lava-flow/albedo.png",
+   "files": {
+    "albedo": "textures/materials/lava-flow/albedo.png",
+    "height": "textures/materials/lava-flow/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3676899,
+   "sha256": "a27c9ec822e58879c451fb7b6de9d11fb04ac7aee9eab4692b48b8037da44d5f",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/leaf-litter",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/leaf-litter/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/leaf-litter/albedo-512.png",
+    "albedo": "textures/materials/leaf-litter/albedo.png",
+    "height-512": "textures/materials/leaf-litter/height-512.png",
+    "height": "textures/materials/leaf-litter/height.png",
+    "normal-512": "textures/materials/leaf-litter/normal-512.png",
+    "normal": "textures/materials/leaf-litter/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2261892,
+   "sha256": "f1892690a8c5de59472585ee944c6078b9398db322e6367f1ec79084055ce5f4",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/leather-black",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/leather-black/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/leather-black/albedo-512.png",
+    "albedo": "textures/materials/leather-black/albedo.png",
+    "height-512": "textures/materials/leather-black/height-512.png",
+    "height": "textures/materials/leather-black/height.png",
+    "normal-512": "textures/materials/leather-black/normal-512.png",
+    "normal": "textures/materials/leather-black/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1941305,
+   "sha256": "6721e747b2bd593f4c8b38791010e89c8a63dd56ef2a0b325fa69b06f481f8c7",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/leather-brown",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/leather-brown/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/leather-brown/albedo-512.png",
+    "albedo": "textures/materials/leather-brown/albedo.png",
+    "height-512": "textures/materials/leather-brown/height-512.png",
+    "height": "textures/materials/leather-brown/height.png",
+    "normal-512": "textures/materials/leather-brown/normal-512.png",
+    "normal": "textures/materials/leather-brown/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2062721,
+   "sha256": "9df2cc311723d65caee0fdaa811cdd1c38392d926156d558828a6fb0f592d524",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "fabric",
+   "name_zh": "皮革",
+   "use_zh": "皮甲、鞍、書封",
+   "suggested": {
+    "tileMeters": [
+     0.5,
+     0.5
+    ],
+    "roughness": 0.6,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/lime-plaster",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/lime-plaster/albedo.png",
+   "files": {
+    "albedo": "textures/materials/lime-plaster/albedo.png",
+    "height": "textures/materials/lime-plaster/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3480775,
+   "sha256": "37f0f1e62753070234a036a5f876198938b3512e00a9eda3b518eaf5c578b98f",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/linen-cloth",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/linen-cloth/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/linen-cloth/albedo-512.png",
+    "albedo": "textures/materials/linen-cloth/albedo.png",
+    "height-512": "textures/materials/linen-cloth/height-512.png",
+    "height": "textures/materials/linen-cloth/height.png",
+    "normal-512": "textures/materials/linen-cloth/normal-512.png",
+    "normal": "textures/materials/linen-cloth/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2332012,
+   "sha256": "b38fee6e30d42911ccd841ca5d1097177eb66f1fc184fa83ace9f76ba9ee64bb",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "fabric",
+   "name_zh": "麻布",
+   "use_zh": "衣物、帳篷、布袋",
+   "suggested": {
+    "tileMeters": [
+     0.5,
+     0.5
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/lizard-scales",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/lizard-scales/albedo.png",
+   "files": {
+    "albedo": "textures/materials/lizard-scales/albedo.png",
+    "height": "textures/materials/lizard-scales/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3621274,
+   "sha256": "36d6c213ec7ad485e506876d96b46dce7580b65e670fe43c970c78e5dc087121",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/long-grass",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/long-grass/albedo.png",
+   "files": {
+    "albedo": "textures/materials/long-grass/albedo.png",
+    "height": "textures/materials/long-grass/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4593845,
+   "sha256": "7c19d71f7ddd68ca5db9642dc8912dc040f356c454fc18df46145b3179b7fbef",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/lunar-regolith",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/lunar-regolith/albedo.png",
+   "files": {
+    "albedo": "textures/materials/lunar-regolith/albedo.png",
+    "height": "textures/materials/lunar-regolith/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4329651,
+   "sha256": "b4e15666f47c2a3261053d725ab9280bc90b5af61743b5279ef3372f18bb8357",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/marble-black-gold",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/marble-black-gold/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/marble-black-gold/albedo-512.png",
+    "albedo": "textures/materials/marble-black-gold/albedo.png",
+    "height-512": "textures/materials/marble-black-gold/height-512.png",
+    "height": "textures/materials/marble-black-gold/height.png",
+    "normal-512": "textures/materials/marble-black-gold/normal-512.png",
+    "normal": "textures/materials/marble-black-gold/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1558324,
+   "sha256": "bd4d173c737dedbed6dbdb948b43db3359ed6e63e716917d5638d77dd85655a5",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/marble-white",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/marble-white/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/marble-white/albedo-512.png",
+    "albedo": "textures/materials/marble-white/albedo.png",
+    "height-512": "textures/materials/marble-white/height-512.png",
+    "height": "textures/materials/marble-white/height.png",
+    "normal-512": "textures/materials/marble-white/normal-512.png",
+    "normal": "textures/materials/marble-white/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 964967,
+   "sha256": "8cdca47cec8ea634e0f657079853893571b83426e951ae41c6c904716d130af2",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "rock",
+   "name_zh": "白色大理石",
+   "use_zh": "宮殿地面、柱、雕像",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.25,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/metal-cladding",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/metal-cladding/albedo.png",
+   "files": {
+    "albedo": "textures/materials/metal-cladding/albedo.png",
+    "height": "textures/materials/metal-cladding/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 2448453,
+   "sha256": "91ce43907600b53316f985dd2c9f5c9d344e1dae733f1ca4e67ab16d5b74dca9",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/mosaic-blue",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/mosaic-blue/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/mosaic-blue/albedo-512.png",
+    "albedo": "textures/materials/mosaic-blue/albedo.png",
+    "height-512": "textures/materials/mosaic-blue/height-512.png",
+    "height": "textures/materials/mosaic-blue/height.png",
+    "normal-512": "textures/materials/mosaic-blue/normal-512.png",
+    "normal": "textures/materials/mosaic-blue/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1724484,
+   "sha256": "43be215bfc41f3b57734fb59ef2540a0b80386174a09f7306eb3f832a10c4dd8",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/moss",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/moss/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/moss/albedo-512.png",
+    "albedo": "textures/materials/moss/albedo.png",
+    "height-512": "textures/materials/moss/height-512.png",
+    "height": "textures/materials/moss/height.png",
+    "normal-512": "textures/materials/moss/normal-512.png",
+    "normal": "textures/materials/moss/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2396546,
+   "sha256": "0f13c876fbe19b212c7b620c2d08a666b85f73d7c85b316b8727c04b565276d3",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "苔蘚",
+   "use_zh": "石頭頂、樹根、潮濕牆腳（配合 top）",
+   "suggested": {
+    "tileMeters": [
+     1,
+     1
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/mossy-rock",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/mossy-rock/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/mossy-rock/albedo-512.png",
+    "albedo": "textures/materials/mossy-rock/albedo.png",
+    "height-512": "textures/materials/mossy-rock/height-512.png",
+    "height": "textures/materials/mossy-rock/height.png",
+    "normal-512": "textures/materials/mossy-rock/normal-512.png",
+    "normal": "textures/materials/mossy-rock/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2425133,
+   "sha256": "6ce930db13d90bc36ad0951906c7252796588326e3ea5cbbc515f06bcdba6cac",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "rock",
+   "name_zh": "長苔岩石",
+   "use_zh": "溪邊、森林裡的石頭",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.9,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/mud-wet",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/mud-wet/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/mud-wet/albedo-512.png",
+    "albedo": "textures/materials/mud-wet/albedo.png",
+    "height-512": "textures/materials/mud-wet/height-512.png",
+    "height": "textures/materials/mud-wet/height.png",
+    "normal-512": "textures/materials/mud-wet/normal-512.png",
+    "normal": "textures/materials/mud-wet/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1914214,
+   "sha256": "0414310d0184a8322e15e79f1753da34af6936acf6aca60146f3ce7ccfc81a95",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/mycelium-ground",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/mycelium-ground/albedo.png",
+   "files": {
+    "albedo": "textures/materials/mycelium-ground/albedo.png",
+    "height": "textures/materials/mycelium-ground/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4398621,
+   "sha256": "d454ce287ddcd20a14847cebd21a73094835a6101e371740b90349b7e7e9ca1c",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/oak-floor-planks",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/oak-floor-planks/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/oak-floor-planks/albedo-512.png",
+    "albedo": "textures/materials/oak-floor-planks/albedo.png",
+    "height-512": "textures/materials/oak-floor-planks/height-512.png",
+    "height": "textures/materials/oak-floor-planks/height.png",
+    "normal-512": "textures/materials/oak-floor-planks/normal-512.png",
+    "normal": "textures/materials/oak-floor-planks/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1671530,
+   "sha256": "16cc8bdcbe5e3c9c7452cba243eb2eae0ba18e95972db015453413a5ff62668c",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "flagged",
+   "issues": [
+    "the seam of the long planks shows"
+   ],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/obsidian",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/obsidian/albedo.png",
+   "files": {
+    "albedo": "textures/materials/obsidian/albedo.png",
+    "height": "textures/materials/obsidian/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 2445675,
+   "sha256": "71dfd43f8879ca0b311479b2f7876377628c67a95b446dac60085a33f0c19e39",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/old-planks",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/old-planks/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/old-planks/albedo-512.png",
+    "albedo": "textures/materials/old-planks/albedo.png",
+    "height-512": "textures/materials/old-planks/height-512.png",
+    "height": "textures/materials/old-planks/height.png",
+    "normal-512": "textures/materials/old-planks/normal-512.png",
+    "normal": "textures/materials/old-planks/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1751846,
+   "sha256": "bba5ec1685512dc3ad31fdac85b4851e4ea43744f3a09eacefa3fdefed4845f0",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "wood",
+   "name_zh": "舊木地板",
+   "use_zh": "地板、棧橋、甲板",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.75,
+    "metallic": 0
+   },
+   "note_zh": "木板方向固定"
+  },
+  {
+   "id": "textures/materials/padded-wall-white",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/padded-wall-white/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/padded-wall-white/albedo-512.png",
+    "albedo": "textures/materials/padded-wall-white/albedo.png",
+    "height-512": "textures/materials/padded-wall-white/height-512.png",
+    "height": "textures/materials/padded-wall-white/height.png",
+    "normal-512": "textures/materials/padded-wall-white/normal-512.png",
+    "normal": "textures/materials/padded-wall-white/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1810911,
+   "sha256": "17c9fd021773d417fe8bf0c94db49f505bac4c7c1dc4f8c24d822a815f795892",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/painted-metal-chipped",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/painted-metal-chipped/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/painted-metal-chipped/albedo-512.png",
+    "albedo": "textures/materials/painted-metal-chipped/albedo.png",
+    "height-512": "textures/materials/painted-metal-chipped/height-512.png",
+    "height": "textures/materials/painted-metal-chipped/height.png",
+    "normal-512": "textures/materials/painted-metal-chipped/normal-512.png",
+    "normal": "textures/materials/painted-metal-chipped/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2070788,
+   "sha256": "0b976ea0cfb2a1b5186750dbb68436f56bb07a31d2f5a3144d73e03c6b19c5b9",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/painted-road-asphalt",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/painted-road-asphalt/albedo.png",
+   "files": {
+    "albedo": "textures/materials/painted-road-asphalt/albedo.png",
+    "height": "textures/materials/painted-road-asphalt/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4224804,
+   "sha256": "9a43e822639fd19ef3a1922e52ac93caed9a88e8c0096f21f757d4b9e3777e39",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/painted-wood-peeling",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/painted-wood-peeling/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/painted-wood-peeling/albedo-512.png",
+    "albedo": "textures/materials/painted-wood-peeling/albedo.png",
+    "height-512": "textures/materials/painted-wood-peeling/height-512.png",
+    "height": "textures/materials/painted-wood-peeling/height.png",
+    "normal-512": "textures/materials/painted-wood-peeling/normal-512.png",
+    "normal": "textures/materials/painted-wood-peeling/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2186560,
+   "sha256": "300367d44bb23080346be97dfb52bad6529d6903723fb51b275e4a302e4ec241",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/palace-red-plaster",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/palace-red-plaster/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/palace-red-plaster/albedo-512.png",
+    "albedo": "textures/materials/palace-red-plaster/albedo.png",
+    "height-512": "textures/materials/palace-red-plaster/height-512.png",
+    "height": "textures/materials/palace-red-plaster/height.png",
+    "normal-512": "textures/materials/palace-red-plaster/normal-512.png",
+    "normal": "textures/materials/palace-red-plaster/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2015279,
+   "sha256": "ef0e4472e02cfb07b1e1bba1437a2b1c1ebe3175db98394469f647890bd7ff0b",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/parquet-herringbone",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/parquet-herringbone/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/parquet-herringbone/albedo-512.png",
+    "albedo": "textures/materials/parquet-herringbone/albedo.png",
+    "height-512": "textures/materials/parquet-herringbone/height-512.png",
+    "height": "textures/materials/parquet-herringbone/height.png",
+    "normal-512": "textures/materials/parquet-herringbone/normal-512.png",
+    "normal": "textures/materials/parquet-herringbone/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2268519,
+   "sha256": "7e7de1a4660a950a5b2d5ce5a79f436adf2254fc14c2c125f07cf47b14be754c",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/pavement-slabs",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/pavement-slabs/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/pavement-slabs/albedo-512.png",
+    "albedo": "textures/materials/pavement-slabs/albedo.png",
+    "height-512": "textures/materials/pavement-slabs/height-512.png",
+    "height": "textures/materials/pavement-slabs/height.png",
+    "normal-512": "textures/materials/pavement-slabs/normal-512.png",
+    "normal": "textures/materials/pavement-slabs/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2073700,
+   "sha256": "d853bbc3582a7a3bde6ada6acde47c2aea5efcfcd202977b640e6f8ed6cb5a0a",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/persian-rug",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/persian-rug/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/persian-rug/albedo-512.png",
+    "albedo": "textures/materials/persian-rug/albedo.png",
+    "height-512": "textures/materials/persian-rug/height-512.png",
+    "height": "textures/materials/persian-rug/height.png",
+    "normal-512": "textures/materials/persian-rug/normal-512.png",
+    "normal": "textures/materials/persian-rug/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2274481,
+   "sha256": "d5bc6f59e1ba9a40af7ba424f8686f2d4133a56fd09d8b7965cd71c2c0c8c1c4",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/pine-crate-boards",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/pine-crate-boards/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/pine-crate-boards/albedo-512.png",
+    "albedo": "textures/materials/pine-crate-boards/albedo.png",
+    "height-512": "textures/materials/pine-crate-boards/height-512.png",
+    "height": "textures/materials/pine-crate-boards/height.png",
+    "normal-512": "textures/materials/pine-crate-boards/normal-512.png",
+    "normal": "textures/materials/pine-crate-boards/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1930304,
+   "sha256": "094990ad4b09a156c2d378301c67c58fd0d50df0135f2daba4df1b20d055dcb0",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "flagged",
+   "issues": [
+    "the seam of the long planks shows"
+   ],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/pine-needle-floor",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/pine-needle-floor/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/pine-needle-floor/albedo-512.png",
+    "albedo": "textures/materials/pine-needle-floor/albedo.png",
+    "height-512": "textures/materials/pine-needle-floor/height-512.png",
+    "height": "textures/materials/pine-needle-floor/height.png",
+    "normal-512": "textures/materials/pine-needle-floor/normal-512.png",
+    "normal": "textures/materials/pine-needle-floor/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2717082,
+   "sha256": "a2f9e3604a59ec9b362c598b2bd29e056b93e41592a647e4248378b988732d0f",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/pipe-wall",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/pipe-wall/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/pipe-wall/albedo-512.png",
+    "albedo": "textures/materials/pipe-wall/albedo.png",
+    "height-512": "textures/materials/pipe-wall/height-512.png",
+    "height": "textures/materials/pipe-wall/height.png",
+    "normal-512": "textures/materials/pipe-wall/normal-512.png",
+    "normal": "textures/materials/pipe-wall/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1494978,
+   "sha256": "564bd92fe808afcbb4596a8ede4461aff969f0fa6eb5286f097ac9bf9a3d37ba",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/plaid-red",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/plaid-red/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/plaid-red/albedo-512.png",
+    "albedo": "textures/materials/plaid-red/albedo.png",
+    "height-512": "textures/materials/plaid-red/height-512.png",
+    "height": "textures/materials/plaid-red/height.png",
+    "normal-512": "textures/materials/plaid-red/normal-512.png",
+    "normal": "textures/materials/plaid-red/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2272102,
+   "sha256": "9ca081993ef8672ca48cb49d67bbf35d123d41ad14d0338ccd4a241bf8223f01",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/plaster-cracked",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/plaster-cracked/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/plaster-cracked/albedo-512.png",
+    "albedo": "textures/materials/plaster-cracked/albedo.png",
+    "height-512": "textures/materials/plaster-cracked/height-512.png",
+    "height": "textures/materials/plaster-cracked/height.png",
+    "normal-512": "textures/materials/plaster-cracked/normal-512.png",
+    "normal": "textures/materials/plaster-cracked/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1942137,
+   "sha256": "1a4bf80ea04de9d69a201c0d6ea1fc4f858b5c5834327723fc94cc12a9850514",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/plaster-white",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/plaster-white/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/plaster-white/albedo-512.png",
+    "albedo": "textures/materials/plaster-white/albedo.png",
+    "height-512": "textures/materials/plaster-white/height-512.png",
+    "height": "textures/materials/plaster-white/height.png",
+    "normal-512": "textures/materials/plaster-white/normal-512.png",
+    "normal": "textures/materials/plaster-white/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1888052,
+   "sha256": "727d89e39a8ad9d8850b5228f949332dc31e366bfc748e91d3260a53cc582f1c",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "wall",
+   "name_zh": "白灰牆",
+   "use_zh": "民宅外牆、室內牆",
+   "suggested": {
+    "tileMeters": [
+     3,
+     3
+    ],
+    "roughness": 0.9,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/ploughed-earth",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/ploughed-earth/albedo.png",
+   "files": {
+    "albedo": "textures/materials/ploughed-earth/albedo.png",
+    "height": "textures/materials/ploughed-earth/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3674811,
+   "sha256": "ddc43e38a413edc34da620e95154f34b80ef6d4c15c411ce9dd384670adbfc01",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/plywood",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/plywood/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/plywood/albedo-512.png",
+    "albedo": "textures/materials/plywood/albedo.png",
+    "height-512": "textures/materials/plywood/height-512.png",
+    "height": "textures/materials/plywood/height.png",
+    "normal-512": "textures/materials/plywood/normal-512.png",
+    "normal": "textures/materials/plywood/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1404752,
+   "sha256": "c5eb585e63ecfef5a1ef669a6032ee75d9037b01b3ac435c8aa09d320a1272cd",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/porcelain-blue-white",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/porcelain-blue-white/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/porcelain-blue-white/albedo-512.png",
+    "albedo": "textures/materials/porcelain-blue-white/albedo.png",
+    "height-512": "textures/materials/porcelain-blue-white/height-512.png",
+    "height": "textures/materials/porcelain-blue-white/height.png",
+    "normal-512": "textures/materials/porcelain-blue-white/normal-512.png",
+    "normal": "textures/materials/porcelain-blue-white/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1808306,
+   "sha256": "460fec9522c141bc02e4a6483ed404272a14e3ce85bfbd3e3e8040e4e4e7bf30",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/quilted-diamond",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/quilted-diamond/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/quilted-diamond/albedo-512.png",
+    "albedo": "textures/materials/quilted-diamond/albedo.png",
+    "height-512": "textures/materials/quilted-diamond/height-512.png",
+    "height": "textures/materials/quilted-diamond/height.png",
+    "normal-512": "textures/materials/quilted-diamond/normal-512.png",
+    "normal": "textures/materials/quilted-diamond/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2022309,
+   "sha256": "a97fc871962926cc66f263e857fd1f21583815f4c4384b9a9c1ec12a0173cc1f",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/rammed-earth",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/rammed-earth/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/rammed-earth/albedo-512.png",
+    "albedo": "textures/materials/rammed-earth/albedo.png",
+    "height-512": "textures/materials/rammed-earth/height-512.png",
+    "height": "textures/materials/rammed-earth/height.png",
+    "normal-512": "textures/materials/rammed-earth/normal-512.png",
+    "normal": "textures/materials/rammed-earth/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2161554,
+   "sha256": "2f61ccfe13f514624a7eaa543789ca7e503622c0622e880f44461f13f15726bc",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "wall",
+   "name_zh": "夯土牆",
+   "use_zh": "土樓、古城牆",
+   "suggested": {
+    "tileMeters": [
+     2.5,
+     2.5
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   },
+   "note_zh": "夯層水平"
+  },
+  {
+   "id": "textures/materials/red-brick",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/red-brick/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/red-brick/albedo-512.png",
+    "albedo": "textures/materials/red-brick/albedo.png",
+    "height-512": "textures/materials/red-brick/height-512.png",
+    "height": "textures/materials/red-brick/height.png",
+    "normal-512": "textures/materials/red-brick/normal-512.png",
+    "normal": "textures/materials/red-brick/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2075064,
+   "sha256": "0a386a5bd888d209d179940ad2db1c3c211a1f22dcb820321852b1d89f16dc47",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "wall",
+   "name_zh": "紅磚牆",
+   "use_zh": "房屋、圍牆、煙囪",
+   "suggested": {
+    "tileMeters": [
+     1.6,
+     1.6
+    ],
+    "roughness": 0.9,
+    "metallic": 0
+   },
+   "note_zh": "磚縫水平，方向固定"
+  },
+  {
+   "id": "textures/materials/red-clay",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/red-clay/albedo.png",
+   "files": {
+    "albedo": "textures/materials/red-clay/albedo.png",
+    "height": "textures/materials/red-clay/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3486181,
+   "sha256": "741a118d859e6a3a4075daf2778e71ec7034acab71faab3557af7e64b5653e76",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/red-lacquer",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/red-lacquer/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/red-lacquer/albedo-512.png",
+    "albedo": "textures/materials/red-lacquer/albedo.png",
+    "height-512": "textures/materials/red-lacquer/height-512.png",
+    "height": "textures/materials/red-lacquer/height.png",
+    "normal-512": "textures/materials/red-lacquer/normal-512.png",
+    "normal": "textures/materials/red-lacquer/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1724252,
+   "sha256": "6f644e18fe4c09f078469c58ac84ea8b091fea55e71695c99e130350575a4c17",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/rib-knit-navy",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/rib-knit-navy/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/rib-knit-navy/albedo-512.png",
+    "albedo": "textures/materials/rib-knit-navy/albedo.png",
+    "height-512": "textures/materials/rib-knit-navy/height-512.png",
+    "height": "textures/materials/rib-knit-navy/height.png",
+    "normal-512": "textures/materials/rib-knit-navy/normal-512.png",
+    "normal": "textures/materials/rib-knit-navy/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1928065,
+   "sha256": "3bfda4c9223d9b692c2e8c90fa8158d9b05927b219f3560fff8cee56122725c2",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/riverbed-pebbles",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/riverbed-pebbles/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/riverbed-pebbles/albedo-512.png",
+    "albedo": "textures/materials/riverbed-pebbles/albedo.png",
+    "height-512": "textures/materials/riverbed-pebbles/height-512.png",
+    "height": "textures/materials/riverbed-pebbles/height.png",
+    "normal-512": "textures/materials/riverbed-pebbles/normal-512.png",
+    "normal": "textures/materials/riverbed-pebbles/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2032066,
+   "sha256": "55ea7bee1393cc40e43c0f0eab379fa15f4825daeee13eb390f4fe2e900b03f9",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/rock-skin",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/rock-skin/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/rock-skin/albedo-512.png",
+    "albedo": "textures/materials/rock-skin/albedo.png",
+    "height-512": "textures/materials/rock-skin/height-512.png",
+    "height": "textures/materials/rock-skin/height.png",
+    "normal-512": "textures/materials/rock-skin/normal-512.png",
+    "normal": "textures/materials/rock-skin/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2461487,
+   "sha256": "8f0869bd1993b73cbadfed730b7997c9e0ba975c18756e4d8065426189a99a7d",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "rock",
+   "name_zh": "岩石表面",
+   "use_zh": "石像、巨石、山體",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.9,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/roof-gravel",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/roof-gravel/albedo.png",
+   "files": {
+    "albedo": "textures/materials/roof-gravel/albedo.png",
+    "height": "textures/materials/roof-gravel/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4385527,
+   "sha256": "993a278e6aa2876d1e88d0087f7f2ea28530f21f60c8252a7ed6c38e24767dd3",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/roots-ground",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/roots-ground/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/roots-ground/albedo-512.png",
+    "albedo": "textures/materials/roots-ground/albedo.png",
+    "height-512": "textures/materials/roots-ground/height-512.png",
+    "height": "textures/materials/roots-ground/height.png",
+    "normal-512": "textures/materials/roots-ground/normal-512.png",
+    "normal": "textures/materials/roots-ground/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2444857,
+   "sha256": "051061e4a42b84bb6cd822b3b832b4ee90ffbc23cfcab7b8a9c476bdb90b809e",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/rubber-studded",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/rubber-studded/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/rubber-studded/albedo-512.png",
+    "albedo": "textures/materials/rubber-studded/albedo.png",
+    "height-512": "textures/materials/rubber-studded/height-512.png",
+    "height": "textures/materials/rubber-studded/height.png",
+    "normal-512": "textures/materials/rubber-studded/normal-512.png",
+    "normal": "textures/materials/rubber-studded/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1388861,
+   "sha256": "f3b9d574ba064996bae6dde7661fe1348eded0295aebe9fe3a6e2c6c8d230bf9",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/rusty-metal",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/rusty-metal/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/rusty-metal/albedo-512.png",
+    "albedo": "textures/materials/rusty-metal/albedo.png",
+    "height-512": "textures/materials/rusty-metal/height-512.png",
+    "height": "textures/materials/rusty-metal/height.png",
+    "normal-512": "textures/materials/rusty-metal/normal-512.png",
+    "normal": "textures/materials/rusty-metal/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2176953,
+   "sha256": "f51279582ef42caa994fcbaad95f6d17ddb90c970668eeb57896552698b35a64",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "metal",
+   "name_zh": "鏽鐵板",
+   "use_zh": "廢墟、貨櫃、舊機械",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.8,
+    "metallic": 0.6
+   }
+  },
+  {
+   "id": "textures/materials/salt-flat",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/salt-flat/albedo.png",
+   "files": {
+    "albedo": "textures/materials/salt-flat/albedo.png",
+    "height": "textures/materials/salt-flat/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3050120,
+   "sha256": "5cf30f02292e485172828140573e7faa1611c712b5ede06336e5d3ecc30ad2b1",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/sand-beach",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/sand-beach/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/sand-beach/albedo-512.png",
+    "albedo": "textures/materials/sand-beach/albedo.png",
+    "height-512": "textures/materials/sand-beach/height-512.png",
+    "height": "textures/materials/sand-beach/height.png",
+    "normal-512": "textures/materials/sand-beach/normal-512.png",
+    "normal": "textures/materials/sand-beach/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2039315,
+   "sha256": "316996e6e4a8d067de6ca79d8e4f6c7eb81eed3a13b9098734dcae0177cdf396",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "沙灘",
+   "use_zh": "海灘、沙漠、沙坑",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   },
+   "note_zh": "有風紋，方向固定"
+  },
+  {
+   "id": "textures/materials/sand-ripples",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/sand-ripples/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/sand-ripples/albedo-512.png",
+    "albedo": "textures/materials/sand-ripples/albedo.png",
+    "height-512": "textures/materials/sand-ripples/height-512.png",
+    "height": "textures/materials/sand-ripples/height.png",
+    "normal-512": "textures/materials/sand-ripples/normal-512.png",
+    "normal": "textures/materials/sand-ripples/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1952257,
+   "sha256": "b2c82598eac6aeec0dd600a4320e925f91e9b76e9eae3670f32a742ff4e70f9f",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/sandstone-layers",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/sandstone-layers/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/sandstone-layers/albedo-512.png",
+    "albedo": "textures/materials/sandstone-layers/albedo.png",
+    "height-512": "textures/materials/sandstone-layers/height-512.png",
+    "height": "textures/materials/sandstone-layers/height.png",
+    "normal-512": "textures/materials/sandstone-layers/normal-512.png",
+    "normal": "textures/materials/sandstone-layers/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2103828,
+   "sha256": "ead944c4c652753bb71209a171c74dc5d1ce993c4bcea18bb6334c34cac054c7",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/satin-black",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/satin-black/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/satin-black/albedo-512.png",
+    "albedo": "textures/materials/satin-black/albedo.png",
+    "height-512": "textures/materials/satin-black/height-512.png",
+    "height": "textures/materials/satin-black/height.png",
+    "normal-512": "textures/materials/satin-black/normal-512.png",
+    "normal": "textures/materials/satin-black/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1613346,
+   "sha256": "8f92cb0b661b02a0677087e67269de440272a96518f3a6aa876d990d21ff3f7b",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/savanna-grass",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/savanna-grass/albedo.png",
+   "files": {
+    "albedo": "textures/materials/savanna-grass/albedo.png",
+    "height": "textures/materials/savanna-grass/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4741123,
+   "sha256": "ffe3393b0b877e897e8f7a0d1b972af3debdc560f7c7e3bf8d202379431ffb53",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/scifi-ceiling-grid",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-ceiling-grid/albedo.png",
+   "files": {
+    "albedo": "textures/materials/scifi-ceiling-grid/albedo.png",
+    "height": "textures/materials/scifi-ceiling-grid/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3156733,
+   "sha256": "94a0e8a3fdfd266f84909cefb273f2be2c97407e01703297b8e02cb9d10b6682",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/scifi-floor-grating",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-floor-grating/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/scifi-floor-grating/albedo-512.png",
+    "albedo": "textures/materials/scifi-floor-grating/albedo.png",
+    "height-512": "textures/materials/scifi-floor-grating/height-512.png",
+    "height": "textures/materials/scifi-floor-grating/height.png",
+    "normal-512": "textures/materials/scifi-floor-grating/normal-512.png",
+    "normal": "textures/materials/scifi-floor-grating/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1518608,
+   "sha256": "c612d4722b54daf8deb466cf1afa7a53f8530167493a11c1892255682e7a0183",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/scifi-frosted-glass",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-frosted-glass/albedo.png",
+   "files": {
+    "albedo": "textures/materials/scifi-frosted-glass/albedo.png",
+    "height": "textures/materials/scifi-frosted-glass/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3517073,
+   "sha256": "4e0a4a012d1868e5b3ed4bc9d619eb1d247e698a5e273413cd5d7cf7836a7eed",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/scifi-gold-foil",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-gold-foil/albedo.png",
+   "files": {
+    "albedo": "textures/materials/scifi-gold-foil/albedo.png",
+    "height": "textures/materials/scifi-gold-foil/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3669668,
+   "sha256": "e9e1ce83300ad1b3bc0b5c1f84cfb1a3b55f639a2cc84ded3f9e79fabca1f7b0",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/scifi-heat-tiles",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-heat-tiles/albedo.png",
+   "files": {
+    "albedo": "textures/materials/scifi-heat-tiles/albedo.png",
+    "height": "textures/materials/scifi-heat-tiles/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3007155,
+   "sha256": "8f41aab0efb911fd81873502cf330a0c0de795b2453a9f1502f1f3799f32a834",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/scifi-hex-armor",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-hex-armor/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/scifi-hex-armor/albedo-512.png",
+    "albedo": "textures/materials/scifi-hex-armor/albedo.png",
+    "height-512": "textures/materials/scifi-hex-armor/height-512.png",
+    "height": "textures/materials/scifi-hex-armor/height.png",
+    "normal-512": "textures/materials/scifi-hex-armor/normal-512.png",
+    "normal": "textures/materials/scifi-hex-armor/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1879494,
+   "sha256": "385413c64b5ab3a8ba15deb33f6ae3c6ea8c5c8014d96968e2cc659e7d82e0c9",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/scifi-hull-panels",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-hull-panels/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/scifi-hull-panels/albedo-512.png",
+    "albedo": "textures/materials/scifi-hull-panels/albedo.png",
+    "height-512": "textures/materials/scifi-hull-panels/height-512.png",
+    "height": "textures/materials/scifi-hull-panels/height.png",
+    "normal-512": "textures/materials/scifi-hull-panels/normal-512.png",
+    "normal": "textures/materials/scifi-hull-panels/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1557019,
+   "sha256": "e40f68f5308d7201c1ba42914023a0ff445455e9eaca1e53ab1c72cd18d8eef5",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/scifi-rubber-hex",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-rubber-hex/albedo.png",
+   "files": {
+    "albedo": "textures/materials/scifi-rubber-hex/albedo.png",
+    "height": "textures/materials/scifi-rubber-hex/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 2858001,
+   "sha256": "767176beba5578329758a7c17c61b969318ccfc12f0fea26a146937cbc87dd26",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/scifi-tech-wall-dark",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-tech-wall-dark/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/scifi-tech-wall-dark/albedo-512.png",
+    "albedo": "textures/materials/scifi-tech-wall-dark/albedo.png",
+    "height-512": "textures/materials/scifi-tech-wall-dark/height-512.png",
+    "height": "textures/materials/scifi-tech-wall-dark/height.png",
+    "normal-512": "textures/materials/scifi-tech-wall-dark/normal-512.png",
+    "normal": "textures/materials/scifi-tech-wall-dark/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1245255,
+   "sha256": "ea49fae5ed7c572069822e58c77a8a86b9a03c2efbe6ed0024d7151809c4e2dc",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/scifi-white-panels",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/scifi-white-panels/albedo.png",
+   "files": {
+    "albedo": "textures/materials/scifi-white-panels/albedo.png",
+    "height": "textures/materials/scifi-white-panels/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 1874756,
+   "sha256": "df87f764a99d18bc1da031afbee8349cbf17ac28438a976788e211d8f6971608",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/serpent-belly",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/serpent-belly/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/serpent-belly/albedo-512.png",
+    "albedo": "textures/materials/serpent-belly/albedo.png",
+    "height-512": "textures/materials/serpent-belly/height-512.png",
+    "height": "textures/materials/serpent-belly/height.png",
+    "normal-512": "textures/materials/serpent-belly/normal-512.png",
+    "normal": "textures/materials/serpent-belly/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1545577,
+   "sha256": "ea04ef1c325b1179325f571d83ef4ed70d30b06a279d5a6bf1be547b22e1afd1",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "蛇腹橫紋",
+   "use_zh": "蛇、龍的腹部",
+   "suggested": {
+    "tileMeters": [
+     0.4,
+     0.4
+    ],
+    "roughness": 0.4,
+    "metallic": 0
+   },
+   "note_zh": "橫條要垂直於身體長軸"
+  },
+  {
+   "id": "textures/materials/shoji-paper",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/shoji-paper/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/shoji-paper/albedo-512.png",
+    "albedo": "textures/materials/shoji-paper/albedo.png",
+    "height-512": "textures/materials/shoji-paper/height-512.png",
+    "height": "textures/materials/shoji-paper/height.png",
+    "normal-512": "textures/materials/shoji-paper/normal-512.png",
+    "normal": "textures/materials/shoji-paper/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1354118,
+   "sha256": "1fd271d21be5f3a4ba813f95daa873297f397a75c29ea03262ff30421b37bdd7",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/silk-brocade",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/silk-brocade/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/silk-brocade/albedo-512.png",
+    "albedo": "textures/materials/silk-brocade/albedo.png",
+    "height-512": "textures/materials/silk-brocade/height-512.png",
+    "height": "textures/materials/silk-brocade/height.png",
+    "normal-512": "textures/materials/silk-brocade/normal-512.png",
+    "normal": "textures/materials/silk-brocade/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2474839,
+   "sha256": "40c9b5826a0720a3084758db9d357f91d51eb2d43dd84c30b602e838c7aa4528",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "fabric",
+   "name_zh": "織金錦",
+   "use_zh": "華服、旗幟、帷幔",
+   "suggested": {
+    "tileMeters": [
+     0.5,
+     0.5
+    ],
+    "roughness": 0.5,
+    "metallic": 0
+   },
+   "note_zh": "規則團花"
+  },
+  {
+   "id": "textures/materials/slate-roof",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/slate-roof/albedo.png",
+   "files": {
+    "albedo": "textures/materials/slate-roof/albedo.png",
+    "height": "textures/materials/slate-roof/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3292274,
+   "sha256": "c31ac6e962e0132ebeaa4bf538fbaa380e7b45b597a84090c5a9e300c1ad4d83",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/slime-wet",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/slime-wet/albedo.png",
+   "files": {
+    "albedo": "textures/materials/slime-wet/albedo.png",
+    "height": "textures/materials/slime-wet/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 2514597,
+   "sha256": "7045dd912badbee3e09afc71901724eb2a8f8fd82de62cf9a9dbcf604603e746",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/snow-fresh",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/snow-fresh/albedo.png",
+   "files": {
+    "albedo": "textures/materials/snow-fresh/albedo.png",
+    "height": "textures/materials/snow-fresh/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 2237861,
+   "sha256": "e8729430cbe397c6e56acfa450e4a6ec8fd21cc65d60f8e359eaa2aaa985386b",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/snow-ground",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/snow-ground/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/snow-ground/albedo-512.png",
+    "albedo": "textures/materials/snow-ground/albedo.png",
+    "height-512": "textures/materials/snow-ground/height-512.png",
+    "height": "textures/materials/snow-ground/height.png",
+    "normal-512": "textures/materials/snow-ground/normal-512.png",
+    "normal": "textures/materials/snow-ground/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1199230,
+   "sha256": "41d4227f226b346fed7482bea23e4b82d4c50e48efa2df90617f7a151d307e0a",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "雪地",
+   "use_zh": "雪地、屋頂積雪",
+   "suggested": {
+    "tileMeters": [
+     3,
+     3
+    ],
+    "roughness": 0.85,
+    "metallic": 0
+   },
+   "note_zh": "很白，曝光高時容易過曝"
+  },
+  {
+   "id": "textures/materials/snow-trampled",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/snow-trampled/albedo.png",
+   "files": {
+    "albedo": "textures/materials/snow-trampled/albedo.png",
+    "height": "textures/materials/snow-trampled/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3745524,
+   "sha256": "66a94748048f22d13cc33d57ccfb4a0fc9852ca86b3a8b3e3b28284cb98e9deb",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/stained-glass",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/stained-glass/albedo.png",
+   "files": {
+    "albedo": "textures/materials/stained-glass/albedo.png",
+    "height": "textures/materials/stained-glass/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 2767744,
+   "sha256": "0253924151e85f16a362171acb792c46a24473d65f77895fe5d1a2f702593f1d",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/stone-pavers",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/stone-pavers/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/stone-pavers/albedo-512.png",
+    "albedo": "textures/materials/stone-pavers/albedo.png",
+    "height-512": "textures/materials/stone-pavers/height-512.png",
+    "height": "textures/materials/stone-pavers/height.png",
+    "normal-512": "textures/materials/stone-pavers/normal-512.png",
+    "normal": "textures/materials/stone-pavers/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2125691,
+   "sha256": "d369f573459298a029b1075dc7f6c40ec89d8d774511ea07a0ad504840291ecd",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "ground",
+   "name_zh": "石板鋪面",
+   "use_zh": "人行道、廣場、庭院",
+   "suggested": {
+    "tileMeters": [
+     2.4,
+     2.4
+    ],
+    "roughness": 0.8,
+    "metallic": 0
+   },
+   "note_zh": "長方形石板，方向固定"
+  },
+  {
+   "id": "textures/materials/stone-wall",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/stone-wall/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/stone-wall/albedo-512.png",
+    "albedo": "textures/materials/stone-wall/albedo.png",
+    "height-512": "textures/materials/stone-wall/height-512.png",
+    "height": "textures/materials/stone-wall/height.png",
+    "normal-512": "textures/materials/stone-wall/normal-512.png",
+    "normal": "textures/materials/stone-wall/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2448918,
+   "sha256": "91d8a644374ce53c1c0ced3c5c2227add0648c1af67fbd9c32a788b394a072aa",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "wall",
+   "name_zh": "亂石牆",
+   "use_zh": "城牆、擋土牆、基座",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.9,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/stucco-peach",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/stucco-peach/albedo.png",
+   "files": {
+    "albedo": "textures/materials/stucco-peach/albedo.png",
+    "height": "textures/materials/stucco-peach/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3137311,
+   "sha256": "b7bba660547baeb7036e8e627a66cbf2a47406edddc1b515713ca8c40136cda3",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/subway-tile-green",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/subway-tile-green/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/subway-tile-green/albedo-512.png",
+    "albedo": "textures/materials/subway-tile-green/albedo.png",
+    "height-512": "textures/materials/subway-tile-green/height-512.png",
+    "height": "textures/materials/subway-tile-green/height.png",
+    "normal-512": "textures/materials/subway-tile-green/normal-512.png",
+    "normal": "textures/materials/subway-tile-green/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1341356,
+   "sha256": "e3902690a15ef15a654fb2a8a0eb72d3794300ac00f19fb5bd94a8b3b4d00ff7",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/suede-tan",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/suede-tan/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/suede-tan/albedo-512.png",
+    "albedo": "textures/materials/suede-tan/albedo.png",
+    "height-512": "textures/materials/suede-tan/height-512.png",
+    "height": "textures/materials/suede-tan/height.png",
+    "normal-512": "textures/materials/suede-tan/normal-512.png",
+    "normal": "textures/materials/suede-tan/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2030104,
+   "sha256": "151d0dfba62db4922905f8b096c3af44c2d1ea162ee6a03394eafde78885fb30",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/swamp-duckweed",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/swamp-duckweed/albedo.png",
+   "files": {
+    "albedo": "textures/materials/swamp-duckweed/albedo.png",
+    "height": "textures/materials/swamp-duckweed/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4054442,
+   "sha256": "e4082d5f291527bfefcf27b62b00bc32e445f7540e759b1cdc6079bd23411050",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/tatami",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/tatami/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/tatami/albedo-512.png",
+    "albedo": "textures/materials/tatami/albedo.png",
+    "height-512": "textures/materials/tatami/height-512.png",
+    "height": "textures/materials/tatami/height.png",
+    "normal-512": "textures/materials/tatami/normal-512.png",
+    "normal": "textures/materials/tatami/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1776389,
+   "sha256": "bfc45c4c65f626f2685c68f8110a1624fc7013b6832366da434edefa59722d39",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/terrazzo",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/terrazzo/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/terrazzo/albedo-512.png",
+    "albedo": "textures/materials/terrazzo/albedo.png",
+    "height-512": "textures/materials/terrazzo/height-512.png",
+    "height": "textures/materials/terrazzo/height.png",
+    "normal-512": "textures/materials/terrazzo/normal-512.png",
+    "normal": "textures/materials/terrazzo/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2214358,
+   "sha256": "ac0cbe7df1141e0c508d908935180aab887df62176c775d21e1798f200f56647",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/thatch-roof",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/thatch-roof/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/thatch-roof/albedo-512.png",
+    "albedo": "textures/materials/thatch-roof/albedo.png",
+    "height-512": "textures/materials/thatch-roof/height-512.png",
+    "height": "textures/materials/thatch-roof/height.png",
+    "normal-512": "textures/materials/thatch-roof/normal-512.png",
+    "normal": "textures/materials/thatch-roof/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1998157,
+   "sha256": "d618cbc73b6fcbc5d437dd962bf7ec9d5d1c6b62e151b39c6e23706d0667e769",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "roof",
+   "name_zh": "茅草頂",
+   "use_zh": "茅屋、涼亭",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   },
+   "note_zh": "草由上往下"
+  },
+  {
+   "id": "textures/materials/tidal-rock",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/tidal-rock/albedo.png",
+   "files": {
+    "albedo": "textures/materials/tidal-rock/albedo.png",
+    "height": "textures/materials/tidal-rock/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4026377,
+   "sha256": "22c03f24c7b90ed8f8ecbfdefe4ac030bbccd14006682938a0a094cc7f8e7b25",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/tiger-fur",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/tiger-fur/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/tiger-fur/albedo-512.png",
+    "albedo": "textures/materials/tiger-fur/albedo.png",
+    "height-512": "textures/materials/tiger-fur/height-512.png",
+    "height": "textures/materials/tiger-fur/height.png",
+    "normal-512": "textures/materials/tiger-fur/normal-512.png",
+    "normal": "textures/materials/tiger-fur/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1812761,
+   "sha256": "5217f52ebc09298cdccd883b5addb89dd819b16601b86ec33f1e55a907b1171d",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "虎紋毛皮",
+   "use_zh": "虎、窮奇",
+   "suggested": {
+    "tileMeters": [
+     0.6,
+     0.6
+    ],
+    "roughness": 0.9,
+    "metallic": 0
+   },
+   "note_zh": "高度圖是條紋深淺不是毛的起伏，法線請弱用"
+  },
+  {
+   "id": "textures/materials/tortoise-shell",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/tortoise-shell/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/tortoise-shell/albedo-512.png",
+    "albedo": "textures/materials/tortoise-shell/albedo.png",
+    "height-512": "textures/materials/tortoise-shell/height-512.png",
+    "height": "textures/materials/tortoise-shell/height.png",
+    "normal-512": "textures/materials/tortoise-shell/normal-512.png",
+    "normal": "textures/materials/tortoise-shell/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2039222,
+   "sha256": "2a9f3054255d344b65ed43960c3a7d94198cfa59b7275c68e796e8055dd7fe0c",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "龜甲",
+   "use_zh": "玄武、龜",
+   "suggested": {
+    "tileMeters": [
+     0.6,
+     0.6
+    ],
+    "roughness": 0.4,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/tree-bark",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/tree-bark/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/tree-bark/albedo-512.png",
+    "albedo": "textures/materials/tree-bark/albedo.png",
+    "height-512": "textures/materials/tree-bark/height-512.png",
+    "height": "textures/materials/tree-bark/height.png",
+    "normal-512": "textures/materials/tree-bark/normal-512.png",
+    "normal": "textures/materials/tree-bark/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2506939,
+   "sha256": "da3c10f817fb9c0a7c5a7287532bf058609c8a6d210c1aa2e33750bfd22081c7",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "wood",
+   "name_zh": "樹皮",
+   "use_zh": "樹幹、原木",
+   "suggested": {
+    "tileMeters": [
+     1,
+     1
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   },
+   "note_zh": "紋路垂直"
+  },
+  {
+   "id": "textures/materials/tundra-lichen",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/tundra-lichen/albedo.png",
+   "files": {
+    "albedo": "textures/materials/tundra-lichen/albedo.png",
+    "height": "textures/materials/tundra-lichen/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4742896,
+   "sha256": "34cfa9b5d4a3b89cbb34551c5c4cf2cc99b9f47b606eac6837de8063520d0baa",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/velvet-crimson",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/velvet-crimson/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/velvet-crimson/albedo-512.png",
+    "albedo": "textures/materials/velvet-crimson/albedo.png",
+    "height-512": "textures/materials/velvet-crimson/height-512.png",
+    "height": "textures/materials/velvet-crimson/height.png",
+    "normal-512": "textures/materials/velvet-crimson/normal-512.png",
+    "normal": "textures/materials/velvet-crimson/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1673864,
+   "sha256": "feb4c44f2451046c8ccbe3a8b96230ea8d99d4c939d3b9ff522f5e6dd7ee9a52",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/volcanic-ash",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/volcanic-ash/albedo.png",
+   "files": {
+    "albedo": "textures/materials/volcanic-ash/albedo.png",
+    "height": "textures/materials/volcanic-ash/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 4613223,
+   "sha256": "126a36af0bd81b097e2b8d9f8b17be096e7d3031532d6d52839e25caabf0c8d5",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/volcanic-rock",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/volcanic-rock/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/volcanic-rock/albedo-512.png",
+    "albedo": "textures/materials/volcanic-rock/albedo.png",
+    "height-512": "textures/materials/volcanic-rock/height-512.png",
+    "height": "textures/materials/volcanic-rock/height.png",
+    "normal-512": "textures/materials/volcanic-rock/normal-512.png",
+    "normal": "textures/materials/volcanic-rock/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2213209,
+   "sha256": "0ce695e0021abc8b9091a137759b02888722210300299f47ed655023fd918ece",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/wallpaper-damask",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/wallpaper-damask/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/wallpaper-damask/albedo-512.png",
+    "albedo": "textures/materials/wallpaper-damask/albedo.png",
+    "height-512": "textures/materials/wallpaper-damask/height-512.png",
+    "height": "textures/materials/wallpaper-damask/height.png",
+    "normal-512": "textures/materials/wallpaper-damask/normal-512.png",
+    "normal": "textures/materials/wallpaper-damask/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1851947,
+   "sha256": "29d258ad9efcda28462d83bf4302dbfac7c12a6906558d2137d0ea0916575686",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/walnut-dark",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/walnut-dark/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/walnut-dark/albedo-512.png",
+    "albedo": "textures/materials/walnut-dark/albedo.png",
+    "height-512": "textures/materials/walnut-dark/height-512.png",
+    "height": "textures/materials/walnut-dark/height.png",
+    "normal-512": "textures/materials/walnut-dark/normal-512.png",
+    "normal": "textures/materials/walnut-dark/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1388308,
+   "sha256": "3a7aa4a65cff6dee49d3e5529a49e470097252cf4fae8d4d93097e80184ee2fd",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/wattle-daub",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/wattle-daub/albedo.png",
+   "files": {
+    "albedo": "textures/materials/wattle-daub/albedo.png",
+    "height": "textures/materials/wattle-daub/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3760226,
+   "sha256": "bb9b097d21c75b6a8d6920452c536c6ffd2f5f293cb24f7dc52fd838c51ca688",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/white-fur",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/white-fur/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/white-fur/albedo-512.png",
+    "albedo": "textures/materials/white-fur/albedo.png",
+    "height-512": "textures/materials/white-fur/height-512.png",
+    "height": "textures/materials/white-fur/height.png",
+    "normal-512": "textures/materials/white-fur/normal-512.png",
+    "normal": "textures/materials/white-fur/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1206011,
+   "sha256": "e96ba5580c620702809310aa63212fe9dd3e7d338a38978e5d8788bd4338b4bd",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "白毛",
+   "use_zh": "白虎、狐、白澤",
+   "suggested": {
+    "tileMeters": [
+     0.5,
+     0.5
+    ],
+    "roughness": 0.95,
+    "metallic": 0
+   },
+   "note_zh": "毛流朝下"
+  },
+  {
+   "id": "textures/materials/wing-membrane",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/wing-membrane/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/wing-membrane/albedo-512.png",
+    "albedo": "textures/materials/wing-membrane/albedo.png",
+    "height-512": "textures/materials/wing-membrane/height-512.png",
+    "height": "textures/materials/wing-membrane/height.png",
+    "normal-512": "textures/materials/wing-membrane/normal-512.png",
+    "normal": "textures/materials/wing-membrane/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1591327,
+   "sha256": "77e37e98836f7c454f8403b61bc4d58559c96f83ec1e1d149a874f9a5f325640",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "creature",
+   "name_zh": "翼膜",
+   "use_zh": "蝠翼、龍翼",
+   "suggested": {
+    "tileMeters": [
+     1,
+     1
+    ],
+    "roughness": 0.6,
+    "metallic": 0
+   }
+  },
+  {
+   "id": "textures/materials/wood-shingles",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/wood-shingles/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/wood-shingles/albedo-512.png",
+    "albedo": "textures/materials/wood-shingles/albedo.png",
+    "height-512": "textures/materials/wood-shingles/height-512.png",
+    "height": "textures/materials/wood-shingles/height.png",
+    "normal-512": "textures/materials/wood-shingles/normal-512.png",
+    "normal": "textures/materials/wood-shingles/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2107724,
+   "sha256": "6ffc248fabc532bf1404bd3d702401d3e2c3c42d7d0d997edbbdfe8e101108ea",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/wood-siding",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/wood-siding/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/wood-siding/albedo-512.png",
+    "albedo": "textures/materials/wood-siding/albedo.png",
+    "height-512": "textures/materials/wood-siding/height-512.png",
+    "height": "textures/materials/wood-siding/height.png",
+    "normal-512": "textures/materials/wood-siding/normal-512.png",
+    "normal": "textures/materials/wood-siding/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 2192707,
+   "sha256": "0056f25ba2b49a673b5bbd19fd5127ba8b81e7520e00a366d9058e07b1d6d0a8",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "library-2026-11-21",
+   "category": "wall",
+   "name_zh": "木板牆",
+   "use_zh": "木屋外牆、圍籬",
+   "suggested": {
+    "tileMeters": [
+     2,
+     2
+    ],
+    "roughness": 0.85,
+    "metallic": 0
+   },
+   "note_zh": "木板水平"
+  },
+  {
+   "id": "textures/materials/wool-fleece",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/wool-fleece/albedo.png",
+   "files": {
+    "albedo": "textures/materials/wool-fleece/albedo.png",
+    "height": "textures/materials/wool-fleece/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 2998353,
+   "sha256": "4613fb7e3dd27b9c13c3ba4219fde8c02ab20e14106419b69c3f354faf8974cd",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  },
+  {
+   "id": "textures/materials/wool-knit-cream",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/wool-knit-cream/albedo.png",
+   "files": {
+    "albedo-512": "textures/materials/wool-knit-cream/albedo-512.png",
+    "albedo": "textures/materials/wool-knit-cream/albedo.png",
+    "height-512": "textures/materials/wool-knit-cream/height-512.png",
+    "height": "textures/materials/wool-knit-cream/height.png",
+    "normal-512": "textures/materials/wool-knit-cream/normal-512.png",
+    "normal": "textures/materials/wool-knit-cream/normal.png"
+   },
+   "width": 1024,
+   "height": 1024,
+   "alpha": false,
+   "bytes": 1749836,
+   "sha256": "1aa843cf5d98cbe259c1edaded217fc06981ae9e330846b3245801237aa3bdbd",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "closed",
+   "status": "ok",
+   "issues": [],
+   "batch": "2026-11-26-batch1"
+  },
+  {
+   "id": "textures/materials/yellow-brick",
+   "kind": "material",
+   "medium": "texture",
+   "style": null,
+   "path": "textures/materials/yellow-brick/albedo.png",
+   "files": {
+    "albedo": "textures/materials/yellow-brick/albedo.png",
+    "height": "textures/materials/yellow-brick/height.png"
+   },
+   "width": 1254,
+   "height": 1254,
+   "alpha": false,
+   "bytes": 3763834,
+   "sha256": "49c5c1eddaed8e9461247d51b5db9cad89c8b96ea1ccf06b749b2105f315f9f9",
+   "background": "opaque",
+   "repeat": "both",
+   "seam": "raw",
+   "status": "raw",
+   "issues": [
+    "as generated: not made seamless yet, no normal map"
+   ],
+   "batch": "2026-11-26-batch2"
+  }
+ ]
+}

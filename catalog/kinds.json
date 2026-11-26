@@ -1,0 +1,283 @@
+{
+ "schema": 1,
+ "baseUrl": "https://raw.githubusercontent.com/zhudaandzhuer/zhuda-engine-assets/main/",
+ "how": "The address of a file is baseUrl + path. Read catalog/kinds.json first, then the slice of the kind you need; this file is every slice together.",
+ "status": {
+  "ok": "fits what was asked, by measurement and a look at thumbnails; nobody has looked at it closely",
+  "flagged": "usable, with the stated issue",
+  "raw": "as generated, a step of post-processing is still owed (the issue says which)",
+  "redo": "wrong; do not use, it is kept so that the redo can be compared"
+ },
+ "assets": 1715,
+ "files": 2880,
+ "kinds": {
+  "backdrop": {
+   "what": "A far-distance strip that repeats left to right.",
+   "count": 30,
+   "byStatus": {
+    "ok": 28,
+    "flagged": 2
+   },
+   "slice": "catalog/backdrop.json",
+   "folders": [
+    "2d/backdrops"
+   ]
+  },
+  "background": {
+   "what": "Full backgrounds: visual-novel rooms and streets (16:9) and tall mobile backgrounds (9:16).",
+   "count": 40,
+   "byStatus": {
+    "ok": 24,
+    "flagged": 16
+   },
+   "slice": "catalog/background.json",
+   "folders": [
+    "2d/backgrounds"
+   ]
+  },
+  "card": {
+   "what": "Card frames, backs and slots.",
+   "count": 8,
+   "byStatus": {
+    "ok": 8
+   },
+   "slice": "catalog/card.json",
+   "folders": [
+    "2d/cards"
+   ]
+  },
+  "character-2d": {
+   "what": "A 2D character or enemy, limbs apart so that it can be cut into parts.",
+   "count": 26,
+   "byStatus": {
+    "ok": 25,
+    "flagged": 1
+   },
+   "slice": "catalog/character-2d.json",
+   "folders": [
+    "2d/characters"
+   ]
+  },
+  "character-part": {
+   "what": "Irises, brows, lashes and beards, skin tiles, face and body marks, fabric prints.",
+   "count": 60,
+   "byStatus": {
+    "ok": 59,
+    "flagged": 1
+   },
+   "slice": "catalog/character-part.json",
+   "folders": [
+    "textures/character-parts"
+   ]
+  },
+  "character-ref": {
+   "what": "A character in an A-pose, front and back as two pictures of the same size: the input of an image-to-3D step.",
+   "count": 136,
+   "byStatus": {
+    "ok": 136
+   },
+   "slice": "catalog/character-ref.json",
+   "folders": [
+    "3d/characters"
+   ]
+  },
+  "creature-ref": {
+   "what": "A creature seen from the side and from the front, two pictures.",
+   "count": 60,
+   "byStatus": {
+    "ok": 48,
+    "redo": 12
+   },
+   "slice": "catalog/creature-ref.json",
+   "folders": [
+    "3d/creatures"
+   ]
+  },
+  "decal": {
+   "what": "A flat mark on a transparent background to lay over a surface.",
+   "count": 60,
+   "byStatus": {
+    "ok": 60
+   },
+   "slice": "catalog/decal.json",
+   "folders": [
+    "textures/decals"
+   ]
+  },
+  "detail-map": {
+   "what": "A grey micro-detail tile to multiply over a material.",
+   "count": 10,
+   "byStatus": {
+    "ok": 10
+   },
+   "slice": "catalog/detail-map.json",
+   "folders": [
+    "textures/detail"
+   ]
+  },
+  "effect": {
+   "what": "Effect sprites and sheets for additive blending, on black unless the entry says transparent.",
+   "count": 130,
+   "byStatus": {
+    "ok": 130
+   },
+   "slice": "catalog/effect.json",
+   "folders": [
+    "2d/effects"
+   ]
+  },
+  "face-sheet": {
+   "what": "Six expressions of one 2D character on a sheet; the cut faces are its cells.",
+   "count": 14,
+   "byStatus": {
+    "ok": 14
+   },
+   "slice": "catalog/face-sheet.json",
+   "folders": [
+    "2d/characters/faces"
+   ]
+  },
+  "foliage": {
+   "what": "Leaves, grass, hair cards and nets on a transparent background.",
+   "count": 50,
+   "byStatus": {
+    "ok": 50
+   },
+   "slice": "catalog/foliage.json",
+   "folders": [
+    "textures/foliage"
+   ]
+  },
+  "key-art": {
+   "what": "A wide scene in one art direction, room left for a title.",
+   "count": 28,
+   "byStatus": {
+    "ok": 28
+   },
+   "slice": "catalog/key-art.json",
+   "folders": [
+    "2d/key-art"
+   ]
+  },
+  "mask": {
+   "what": "A grey tiling mask for dirt, wear and breakup.",
+   "count": 30,
+   "byStatus": {
+    "ok": 30
+   },
+   "slice": "catalog/mask.json",
+   "folders": [
+    "textures/masks"
+   ]
+  },
+  "material": {
+   "what": "A tiling surface as a folder: albedo, height and, where made, a normal map (tangent space, OpenGL: green up).",
+   "count": 173,
+   "byStatus": {
+    "raw": 50,
+    "ok": 120,
+    "flagged": 3
+   },
+   "slice": "catalog/material.json",
+   "folders": [
+    "textures/materials"
+   ]
+  },
+  "prop": {
+   "what": "One object on a transparent background, seen from the front or the side: the input of an image-to-3D step.",
+   "count": 299,
+   "byStatus": {
+    "ok": 293,
+    "flagged": 3,
+    "redo": 3
+   },
+   "slice": "catalog/prop.json",
+   "folders": [
+    "3d/props"
+   ]
+  },
+  "scene-2d": {
+   "what": "Side-scroller scenes (a master picture and its layers), top-down tiles and edges, sheets of small scene pieces.",
+   "count": 122,
+   "byStatus": {
+    "ok": 121,
+    "flagged": 1
+   },
+   "slice": "catalog/scene-2d.json",
+   "folders": [
+    "2d/scenes"
+   ]
+  },
+  "sky": {
+   "what": "A sky panorama, 2:1.",
+   "count": 14,
+   "byStatus": {
+    "ok": 6,
+    "raw": 8
+   },
+   "slice": "catalog/sky.json",
+   "folders": [
+    "textures/skies"
+   ]
+  },
+  "sky-part": {
+   "what": "A redrawn quarter of a sky panorama, to be stitched over its base.",
+   "count": 32,
+   "byStatus": {
+    "raw": 32
+   },
+   "slice": "catalog/sky-part.json",
+   "folders": [
+    "textures/skies/parts"
+   ]
+  },
+  "style-target": {
+   "what": "What a finished game in one art direction should look like; given to an image model as the reference picture.",
+   "count": 74,
+   "byStatus": {
+    "ok": 74
+   },
+   "slice": "catalog/style-target.json",
+   "folders": [
+    "2d/style-targets"
+   ]
+  },
+  "symbol": {
+   "what": "Slot-machine symbols and reel frames, five themes.",
+   "count": 60,
+   "byStatus": {
+    "ok": 44,
+    "flagged": 16
+   },
+   "slice": "catalog/symbol.json",
+   "folders": [
+    "2d/symbols"
+   ]
+  },
+  "trim": {
+   "what": "A strip that repeats left to right: mouldings, edges, bands.",
+   "count": 61,
+   "byStatus": {
+    "ok": 52,
+    "flagged": 3,
+    "redo": 6
+   },
+   "slice": "catalog/trim.json",
+   "folders": [
+    "textures/trims"
+   ]
+  },
+  "ui": {
+   "what": "Interface pieces and sheets of icons. A sheet that was cut lists its cells.",
+   "count": 198,
+   "byStatus": {
+    "ok": 197,
+    "flagged": 1
+   },
+   "slice": "catalog/ui.json",
+   "folders": [
+    "2d/ui"
+   ]
+  }
+ }
+}
